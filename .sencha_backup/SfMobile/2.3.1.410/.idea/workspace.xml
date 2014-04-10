@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c7a6791-445d-4b3c-b79c-6c9984bfe374" name="Default" comment="" />
+    <ignored path="SfMobile.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SfMobile" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RainMonth.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/rain/RainMonth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainYear.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/rain/RainYear.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="14" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1292">
+              <folding>
+                <marker date="1393829136837" expanded="false" signature="385:419" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="512:599" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="640:662" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="710:732" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="806:893" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="934:956" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1006:1028" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1102:1189" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1230:1269" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1325:1364" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1501:1588" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1629:1651" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1707:1729" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1828:1915" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="1956:1995" placeholder="..." />
+                <marker date="1393829136837" expanded="false" signature="2050:2089" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rain.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/rain/Rain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="25" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1254">
+              <folding>
+                <marker date="1393897321036" expanded="true" signature="725:816" placeholder="..." />
+                <marker date="1393897321036" expanded="false" signature="858:949" placeholder="..." />
+                <marker date="1393897321036" expanded="false" signature="1022:1114" placeholder="..." />
+                <marker date="1393897321036" expanded="false" signature="1618:1651" placeholder="..." />
+                <marker date="1393897321036" expanded="false" signature="1673:1706" placeholder="..." />
+                <marker date="1393897321036" expanded="false" signature="1731:1764" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/RainModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="31" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkJsonp.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/SkJsonp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="32" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="817">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkProxy.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="191" selection-end="191" vertical-scroll-proportion="0.068100356" vertical-offset="0" max-vertical-offset="558">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainDay.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/rain/RainDay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="71" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/view/rain/RainDetail.js" />
+        <option value="$PROJECT_DIR$/app/view/rain/RainMain.js" />
+        <option value="$PROJECT_DIR$/app/controller/RainControl.js" />
+        <option value="$PROJECT_DIR$/app/view/water/Water.js" />
+        <option value="$PROJECT_DIR$/app/view/water/WaterDay.js" />
+        <option value="$PROJECT_DIR$/app/view/water/WaterMain.js" />
+        <option value="$PROJECT_DIR$/app/view/rain/RainDay.js" />
+        <option value="$PROJECT_DIR$/app/view/rain/RainMonth.js" />
+        <option value="$PROJECT_DIR$/app/view/rain/RainYear.js" />
+        <option value="$PROJECT_DIR$/app/view/rain/Rain.js" />
+        <option value="$PROJECT_DIR$/app/lib/SkJsonp.js" />
+        <option value="$PROJECT_DIR$/app/lib/SkProxy.js" />
+        <option value="$PROJECT_DIR$/app/model/RainModel.js" />
+        <option value="$USER_HOME$/bin/Sencha/Cmd/4.0.2.67/extensions/cmd-cordova-packager/cmd-cordova-packager.plugin.xml" />
+        <option value="$PROJECT_DIR$/cordova/config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebInspect" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\Sencha Touch\sencha touch 2.3 project\SfMobile\app\view" />
+      <recent name="E:\project\Sencha Touch\sencha touch 2.3 project\SfMobile\app" />
+      <recent name="E:\project\Sencha Touch\sencha touch 2.3 project\SfMobile\app\store" />
+      <recent name="E:\project\Sencha Touch\sencha touch 2.3 project\SfMobile\app\model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c7a6791-445d-4b3c-b79c-6c9984bfe374" name="Default" comment="" />
+      <created>1393209689670</created>
+      <updated>1393209689670</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2278481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/view/water/Water.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="33" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/water/WaterDay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="33" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1406" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/water/WaterDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="2584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/water/WaterMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="33" selection-start="3966" selection-end="3966" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/rain/RainDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="997" max-vertical-offset="4294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/rain/RainMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="35" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/rain/RainDay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="71" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/rain/RainMonth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/rain/RainYear.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1292">
+          <folding>
+            <marker date="1393829136837" expanded="false" signature="385:419" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="512:599" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="640:662" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="710:732" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="806:893" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="934:956" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1006:1028" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1102:1189" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1230:1269" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1325:1364" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1501:1588" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1629:1651" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1707:1729" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1828:1915" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="1956:1995" placeholder="..." />
+            <marker date="1393829136837" expanded="false" signature="2050:2089" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/rain/Rain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1254">
+          <folding>
+            <marker date="1393897321036" expanded="true" signature="725:816" placeholder="..." />
+            <marker date="1393897321036" expanded="false" signature="858:949" placeholder="..." />
+            <marker date="1393897321036" expanded="false" signature="1022:1114" placeholder="..." />
+            <marker date="1393897321036" expanded="false" signature="1618:1651" placeholder="..." />
+            <marker date="1393897321036" expanded="false" signature="1673:1706" placeholder="..." />
+            <marker date="1393897321036" expanded="false" signature="1731:1764" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/RainModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/SkJsonp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bin/Sencha/Cmd/4.0.2.67/extensions/cmd-cordova-packager/cmd-cordova-packager.plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="79" selection-start="6091" selection-end="6091" vertical-scroll-proportion="0.37263158" vertical-offset="2388" max-vertical-offset="3344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="191" selection-end="191" vertical-scroll-proportion="0.068100356" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
