@@ -14,14 +14,20 @@ Ext.define('SfMobile.controller.MarkControl', {
         refs: {
             info: 'info',
             markmain: 'info markmain',
-            mark: 'mark',
+            mark: 'info mark',
+            locationtree: 'info locationtree',
             photo: 'photo',
             photodelete: '[itemId=photodelete]',
             photoback: '[itemId=photoback]',
             markconfirm: '[itemId=markconfirm]',
 
             location: '[itemId=location]',
-            tarea_ms: '[itemId=tarea_ms]'
+            tarea_ms: '[itemId=tarea_ms]',
+
+            infofunction: '[itemId=infofunction]',
+            locationconfirm: '[itemId=locationconfirm]',
+            treeselect: '[itemId=treeselect]',
+            status: '[itemId=status]'
         },
 
         control: {
@@ -34,19 +40,39 @@ Ext.define('SfMobile.controller.MarkControl', {
             },
             markconfirm: {
                 tap: 'onMarkConfirmTap'
+            },
+            treeselect: {
+                selectionchange: 'onSelectionChange'
+            },
+            locationconfirm: {
+                tap: 'onLocationConfirmTap'
+            },
+            status: {
+                change: 'onStatusChange'
             }
 
         }
     },
 
-    onMarkInitialize: function(){
+    onMarkInitialize: function(local){
 
         var me = this;
         me.markmain = me.getMarkmain();
         if(!me.markmain){
             me.markmain = Ext.create('SfMobile.view.mark.MarkMain');
         }
+
+        me.local = local;
+
+        if(local == 'project'){
+            me.markmain.setTitle('工程巡查');
+        }
+        else{
+            me.markmain.setTitle('电厂巡查');
+        }
+        me.getLocation().setData({location: '请选择部位'});
         me.getInfo().push(me.markmain);
+
     },
 
     onPhotoDeleteTap: function(){
@@ -125,7 +151,8 @@ Ext.define('SfMobile.controller.MarkControl', {
 
     onUploadImg:function(lat,lng,me){
 
-        var location = me.getLocation().getValue();
+//        var location = me.getLocation().getValue();
+        var location = me.getLocation().getData().location;
         var miaos = me.getTarea_ms().getValue();
         var sdt = '2014-04-09';
         var store = Ext.getStore("PhotoStore");
@@ -158,5 +185,51 @@ Ext.define('SfMobile.controller.MarkControl', {
             function(r){me.onMenuPhotoFailMsg(r,me);},
             options);
 
+    },
+
+    onLocationTap: function(){
+        var me = this;
+        me.locationtree = me.getLocationtree();
+        if(!me.locationtree){
+            me.locationtree = Ext.create('SfMobile.view.mark.LocationTree');
+        }
+
+        var store;
+        if(me.local == 'project'){
+            store = Ext.getStore('ProjectLocationStore');
+        }
+        else{
+            store = Ext.getStore('PlantLocationStore');
+        }
+        me.getTreeselect().setStore(store);
+        me.getInfofunction().hide();
+        me.getLocationconfirm().show();
+        me.getInfo().push(me.locationtree);
+    },
+
+    onSelectionChange: function(container, list, record, e){
+        var me = this;
+        var arr = list.getSelection();
+
+        me.projecttext = arr[0].data.text;
+    },
+
+    onLocationConfirmTap: function(){
+        var me = this;
+        me.getLocation().setData({location: me.projecttext});
+        me.getInfo().pop();
+        me.getLocationconfirm().hide();
+        me.getInfofunction().show();
+    },
+
+    //选择 “状态情况”，对“描述”进行联动
+    onStatusChange: function(field, newValue, oldValue, eOpts){
+        var me = this;
+        if(newValue == 'normal'){
+            me.getTarea_ms().setValue('正常');
+        }
+        else{
+            me.getTarea_ms().setValue('');
+        }
     }
 })

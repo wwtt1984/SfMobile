@@ -82,6 +82,10 @@
         {
             "path": "resources/css/my.css",
             "update": "delta"
+        },
+        {
+            "path": "resources/css/TouchTreeGrid.css",
+            "update": "delta"
         }
     ],
 

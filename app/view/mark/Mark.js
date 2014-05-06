@@ -21,24 +21,56 @@ Ext.define('SfMobile.view.mark.Mark', {
 
         items: [
             {
+                xtype: 'panel',
+                cls: 'local-form',
+                itemId: 'location',
+
+                tpl: Ext.create('Ext.XTemplate',
+                    '<div class="local-form-div" style="margin: 0 0 0 0">',
+                    '<div class="label">',
+                    '<span>巡查部位</span>',
+                    '</div>',
+                    '<div class="choose" id="{[this.getLinkId(values,0)]}">',
+//                            '<span>{[this.getContent(values.td)]}</span>',
+                    '<span>{location}</span>',
+                    '<img src="resources/images/code3.png" style="color:#ccc;float:right;width:20px;height:20px;margin-top:3px;"/>',
+                    '</div>',
+                    '</div>',
+                    {
+
+                        getLinkId: function(values,index){
+                            var result = Ext.id();
+                            Ext.Function.defer(this.addListener, 1, this, [result,values,index]);
+                            return result;
+                        },
+                        addListener: function(id,values,index) {
+                            var me = this;
+
+                            Ext.get(id).addListener('tap', function(e){
+
+                                e.stopEvent();
+                                Ext.ComponentQuery.query('#tarea_ms')[0].blur();/////////////////把焦点失掉//////////////////////////
+//
+                                SfMobile.app.getController('MarkControl').onLocationTap();
+                            })//////增加点击的事件
+                        }
+                    }
+                )
+            },
+            {
                 xtype: 'fieldset',
                 style: 'border-radius: .4em;background-color: #fff; margin: 0 0 0 0;margin: 0 0 15px 0;',
                 items:[
                     {
                         xtype: 'selectfield',
-                        itemId: 'location',
-                        label: '巡查部位',
+                        itemId: 'status',
+                        label: '状态情况',
                         labelAlign: 'top',
                         doneButton: '确定',
                         cancelButton: '取消',
                         options: [
-                            {text: '左坝头',  value: '左坝头'},
-                            {text: '右坝头', value:'右坝头'},
-                            {text: '启闭机房',  value: '启闭机房'},
-                            {text: '进水口',  value: '进水口'},
-                            {text: '廊道', value: '廊道'},
-                            {text: '下游',  value: '下游'},
-                            {text: '库区线',  value: '库区线'}
+                            {text: '正常',  value: 'normal'},
+                            {text: '不正常', value:'abnormal'}
                         ]
                     }
                 ]
@@ -52,7 +84,8 @@ Ext.define('SfMobile.view.mark.Mark', {
                         label: '请输入描述',
                         labelAlign: 'top',
                         xtype: 'textareafield',
-                        itemId:'tarea_ms'
+                        itemId:'tarea_ms',
+                        value: '正常'
                     }]
             },
             {
@@ -82,7 +115,7 @@ Ext.define('SfMobile.view.mark.Mark', {
                 xtype: 'panel',
                 id:'onprogress',
                 html: ''
-            },
+            }
         ]
     }
 })

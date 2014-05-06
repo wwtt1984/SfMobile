@@ -24,6 +24,13 @@ Ext.define('SfMobile.view.Info', {
                     iconCls: 'search',
                     iconMasked: true,
                     hidden: true
+                },
+                {
+                    xtype: 'button',
+                    itemId: 'locationconfirm',
+                    text: '确定',
+                    docked: 'right',
+                    hidden: true
                 }
             ]
         },

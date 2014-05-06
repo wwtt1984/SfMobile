@@ -54,7 +54,12 @@ Ext.application({
         'mark.MarkMain',
         'mark.Mark',
         'mark.Photo',
-        'mark.NewsImg'
+        'mark.NewsImg',
+        'mark.LocationTree',
+
+        'settings.Setting',
+        'settings.Frequency',
+        'settings.Password'
     ],
 
     models: [
@@ -68,7 +73,11 @@ Ext.application({
         'RainMonthModel',
         'RainYearModel',
 
-        'PhotoModel'
+        'PhotoModel',
+
+        'SettingModel',
+
+        'TreeModel'
     ],
 
     stores: [
@@ -82,14 +91,20 @@ Ext.application({
         'RainMonthStore',
         'RainYearStore',
 
-        'PhotoStore'
+        'PhotoStore',
+
+        'SettingStore',
+
+        'ProjectLocationStore',
+        'PlantLocationStore'
     ],
 
     controllers: [
         'MainControl',
         'WaterControl',
         'RainControl',
-        'MarkControl'
+        'MarkControl',
+        'SettingControl'
     ],
 
     icon: {

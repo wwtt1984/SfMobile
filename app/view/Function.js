@@ -28,7 +28,7 @@ Ext.define('SfMobile.view.Function', {
                 itemTpl: Ext.create('Ext.XTemplate',
                      '<div class="movie">',
                      '<div class="img" style="background-image: url({image})"></div>',
-                     '<div class="title">{name}</div>',
+                     '<div class="title">{title}</div>',
                      '</div>'
                 )
             }

@@ -19,7 +19,9 @@ Ext.define('SfMobile.controller.MainControl', {
             rain: 'info rain',
             waterdetail: 'waterdetail',
             raindetail: 'raindetail',
-            confirm: '#confirm'
+            confirm: '#confirm',
+
+            locationconfirm: '[itemId=locationconfirm]'
         },
 
         control: {
@@ -125,6 +127,8 @@ Ext.define('SfMobile.controller.MainControl', {
         var active = info.getActiveItem();
 
         switch(active.xtype){
+
+            //雨情
             case 'rain':
                 me.onInfoFunctionBackTap();
                 break;
@@ -132,8 +136,10 @@ Ext.define('SfMobile.controller.MainControl', {
             case 'raindetail':
                 me.getInfo().pop();
                 me.getInfofunction().show();
+                me.getInfosearch().hide();
                 break;
 
+            //水情
             case 'water':
                 me.onInfoFunctionBackTap();
                 break;
@@ -141,10 +147,33 @@ Ext.define('SfMobile.controller.MainControl', {
             case 'waterdetail':
                 me.getInfo().pop();
                 me.getInfofunction().show();
+                me.getInfosearch().hide();
                 break;
 
+            //巡查
             case 'markmain':
                 me.onInfoFunctionBackTap();
+                break;
+
+            case 'locationtree':
+                me.getInfo().pop();
+                me.getLocationconfirm().hide();
+                me.getInfofunction().show();
+                break;
+
+            //设置
+            case 'setting':
+                me.onInfoFunctionBackTap();
+                break;
+
+            case 'frequency':
+                me.getInfo().pop();
+                me.getInfofunction().show();
+                break;
+
+            case 'password':
+                me.getInfo().pop();
+                me.getInfofunction().show();
                 break;
         }
     },
@@ -155,25 +184,27 @@ Ext.define('SfMobile.controller.MainControl', {
         SfMobile.app.user.name = Ext.getCmp('name').getValue();
         SfMobile.app.user.password = Ext.getCmp('password').getValue();
 
-//        if(SfMobile.app.user.name && SfMobile.app.user.password){
-//            var results = SfMobile.app.user.name + '$' + SfMobile.app.user.password;
-//
-//            Ext.data.proxy.SkJsonp.validate('Login',results,{
-//                success: function(response) {
-//                    if(response.success == "true"){
-//                        me.getMaintitle().onDataSet(SfMobile.app.user.name);
-//                        var src = me.getMain();
-//                        src.setActiveItem(me.getFunctionmain());
-//                    }
-//                    else{
+        if(SfMobile.app.user.name && SfMobile.app.user.password){
+            var results = SfMobile.app.user.name + '$' + SfMobile.app.user.password;
+
+            Ext.data.proxy.SkJsonp.validate('Login',results,{
+                success: function(response) {
+                    if(response.success == "true"){
+                        me.getMaintitle().onDataSet(SfMobile.app.user.name);
+                        var src = me.getMain();
+                        src.setActiveItem(me.getFunctionmain());
+                    }
+                    else{
+                        plugins.Toast.ShowToast("用户名或密码错误!",3000);
 //                        Ext.Msg.alert('用户名或密码错误！');
-//                    }
-//                },
-//                failure: function(){
+                    }
+                },
+                failure: function(){
+                    plugins.Toast.ShowToast("请求失败，请重试！",3000);
 //                    Ext.Msg.alert('请求失败，请重试！');
-//                }
-//            });
-//        }
+                }
+            });
+        }
 
         me.getMaintitle().onDataSet(SfMobile.app.user.name);
         var src = me.getMain();
@@ -189,11 +220,14 @@ Ext.define('SfMobile.controller.MainControl', {
         this.getInfo().destroy();
     },
 
+    //info的“返回键”事件，当只有一张页面时，返回至“主功能”页面
     onInfoBackTap: function(view, eOpts){
 
+        var me = this;
         if(view.getActiveItem() == view.getAt(1)){
-            this.getInfofunction().show();
-            this.getInfosearch().hide();
+            me.getInfofunction().show();
+            me.getLocationconfirm().hide();
+            me.getInfosearch().hide();
         }
     },
 
@@ -208,18 +242,23 @@ Ext.define('SfMobile.controller.MainControl', {
 
         me.getMain().add(me.info);
 
+        var titlestr = ['water', 'rain', 'projectmark', 'plantmark', 'settings'];
+
         switch(record.data.name){
-            case '水情信息':
+            case titlestr[0]:
                 me.onWaterListSet();
                 break;
-            case '雨情信息':
+            case titlestr[1]:
                 me.onRainListSet();
                 break;
-            case '水库巡查':
-                me.getApplication().getController('MarkControl').onMarkInitialize();
+            case titlestr[2]:
+                me.getApplication().getController('MarkControl').onMarkInitialize('project');
                 break;
-            case '退出系统':
-                me.onQuitSystem();
+            case titlestr[3]:
+                me.getApplication().getController('MarkControl').onMarkInitialize('plant');
+                break;
+            case titlestr[4]:
+                me.getApplication().getController('SettingControl').onSettingInitialize();
                 break;
         }
         me.getMain().setActiveItem(me.getInfo());

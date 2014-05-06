@@ -4,6 +4,7 @@ Ext.define('SfMobile.model.FunctionModel',{
        fields: [
             'id', 
             'name',
+            'title',
             'image'
         ]
     }

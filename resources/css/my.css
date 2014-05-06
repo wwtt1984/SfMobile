@@ -174,3 +174,47 @@
 .fun-carousel .my-carousel-item-img{background-position:center center}
 .fun-carousel .x-carousel-indicator>*{background-color:orange !important;opacity:0.4}
 .fun-carousel .x-carousel-indicator>.x-carousel-indicator-active{opacity:1}
+
+
+/************系统设置页面列表样式***********/
+.setting.x-list-round.x-list-ungrouped .x-list-item-tpl, .setting.x-list-round.x-list-ungrouped .x-list-item .x-dock-horizontal, .setting.x-list-round.x-list-grouped .x-list-item-tpl, .setting.x-list-round.x-list-grouped .x-list-item .x-dock-horizontal {
+    background: #fff;
+}
+
+/******************仿照form样式*************/
+.local-form{
+    /*min-height: 4em;*/
+    margin: 0px 0px 15px;
+    border-radius: .4em;
+}
+.local-form .local-form-div{
+    width: 100%;
+    border-radius: .4em;
+    margin: 0;padding: 0;
+    border: 1px #ddd solid;
+    -webkit-border-radius: 0.4em;
+}
+.local-form .local-form-div .label{
+    width: 100%;
+    min-height: 2.5em;
+    background-color: #f7f7f7;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    text-shadow:rgba(255,255,255,0.25) 0 0.08em 0;
+    padding:0.6em;
+}
+.local-form .local-form-div .label span{
+    font-size:0.8em;
+    font-weight: bold;
+}
+.local-form .local-form-div .choose{
+    width: 100%;
+    min-height: 2.5em;
+    padding: 0.6em 0.6em 0.6em 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    background-color: #fff;
+}
+.local-form .local-form-div .choose span{
+    font-size:1em;
+}
