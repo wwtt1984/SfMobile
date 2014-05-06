@@ -153,6 +153,10 @@ Ext.define('SfMobile.controller.MarkControl', {
 
 //        var location = me.getLocation().getValue();
         var location = me.getLocation().getData().location;
+
+        //增加“状态描述”
+        var location = me.getStatus().getValue();
+
         var miaos = me.getTarea_ms().getValue();
         var sdt = '2014-04-09';
         var store = Ext.getStore("PhotoStore");

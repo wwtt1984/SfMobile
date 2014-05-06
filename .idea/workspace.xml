@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a32525a-df06-4f1a-ba9f-9f12f35da8fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/code3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/green3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/settings/Frequency.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/mark/LocationTree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/settings/Password.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/PlantLocationStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/ProjectLocationStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/settings/Setting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/SettingControl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/SettingModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/SettingStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/TouchTreeGrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/TouchTreeGrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/TreeModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Function.js" afterPath="$PROJECT_DIR$/app/view/Function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/FunctionModel.js" afterPath="$PROJECT_DIR$/app/model/FunctionModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/FunctionStore.js" afterPath="$PROJECT_DIR$/app/store/FunctionStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Info.js" afterPath="$PROJECT_DIR$/app/view/Info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MainControl.js" afterPath="$PROJECT_DIR$/app/controller/MainControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/mark/Mark.js" afterPath="$PROJECT_DIR$/app/view/mark/Mark.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MarkControl.js" afterPath="$PROJECT_DIR$/app/controller/MarkControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/my.css" afterPath="$PROJECT_DIR$/resources/css/my.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SfMobile.iws" />
@@ -52,7 +29,7 @@
       <file leaf-file-name="MainControl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="40" selection-start="6889" selection-end="6889" vertical-scroll-proportion="-4.06" vertical-offset="4110" max-vertical-offset="6574">
+            <state line="227" column="40" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0" vertical-offset="4110" max-vertical-offset="6574">
               <folding />
             </state>
           </provider>
@@ -61,7 +38,7 @@
       <file leaf-file-name="SettingControl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/SettingControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="4" selection-start="1899" selection-end="2042" vertical-scroll-proportion="-2.86" vertical-offset="1282" max-vertical-offset="2090">
+            <state line="75" column="4" selection-start="1899" selection-end="2042" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="2090">
               <folding />
             </state>
           </provider>
@@ -70,7 +47,7 @@
       <file leaf-file-name="Mark.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="505" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2394">
+            <state line="65" column="39" selection-start="2309" selection-end="2315" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="2394">
               <folding>
                 <marker date="1399363570601" expanded="true" signature="622:637" placeholder="..." />
                 <marker date="1399363570601" expanded="true" signature="1024:1085" placeholder="..." />
@@ -83,7 +60,16 @@
       <file leaf-file-name="MarkControl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="59" selection-start="4089" selection-end="4089" vertical-scroll-proportion="0.52663934" vertical-offset="2669" max-vertical-offset="4579">
+            <state line="157" column="49" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.40983605" vertical-offset="2783" max-vertical-offset="4655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="-7.464286" vertical-offset="247" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -92,9 +78,8 @@
       <file leaf-file-name="PlantLocationStore.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/store/PlantLocationStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="622" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1672">
+            <state line="28" column="12" selection-start="622" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1710">
               <folding>
-                <element signature="e#0#37#0" expanded="false" />
                 <marker date="1399362627840" expanded="true" signature="87:1968" placeholder="{&quot;extend&quot;: 'Ext.data.TreeStore'...}" />
                 <marker date="1399362627840" expanded="true" signature="234:1966" placeholder="{&quot;autoLoad&quot;: true...}" />
               </folding>
@@ -105,10 +90,8 @@
       <file leaf-file-name="ProjectLocationStore.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/store/ProjectLocationStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1805">
-              <folding>
-                <element signature="e#0#37#0" expanded="false" />
-              </folding>
+            <state line="21" column="18" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1843">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,9 +99,8 @@
       <file leaf-file-name="LocationTree.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/mark/LocationTree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="41" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
+            <state line="54" column="41" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1349">
               <folding>
-                <element signature="e#0#37#0" expanded="false" />
                 <marker date="1399361382214" expanded="false" signature="1936:2070" placeholder="..." />
                 <marker date="1399361382214" expanded="false" signature="2114:2155" placeholder="..." />
               </folding>
@@ -129,7 +111,7 @@
       <file leaf-file-name="TouchTreeGrid.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/TouchTreeGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="309" column="35" selection-start="13458" selection-end="13458" vertical-scroll-proportion="-5.06" vertical-offset="5371" max-vertical-offset="23883">
+            <state line="309" column="35" selection-start="13458" selection-end="13458" vertical-scroll-proportion="0.0" vertical-offset="5871" max-vertical-offset="24130">
               <folding>
                 <marker date="1399359899413" expanded="true" signature="6084:6109" placeholder="..." />
                 <marker date="1399359899413" expanded="true" signature="6297:6303" placeholder="..." />
@@ -142,19 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Info.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/Info.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="28" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="2717">
+            <state line="98" column="28" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0" vertical-offset="1862" max-vertical-offset="2907">
               <folding />
             </state>
           </provider>
@@ -500,6 +473,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -510,23 +491,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -562,6 +535,11 @@
       <created>1397091693787</created>
       <updated>1397091693787</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1399364433186</created>
+      <updated>1399364433186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -582,6 +560,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -606,60 +585,39 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/store/SettingStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/store/FunctionStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <folding />
-        </state>
+        <state line="9" column="52" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/TreeModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="8" column="18" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/my.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="34" selection-start="8563" selection-end="8563" vertical-scroll-proportion="0.0" vertical-offset="3693" max-vertical-offset="4275">
-          <folding />
-        </state>
+        <state line="212" column="34" selection-start="8563" selection-end="8563" vertical-scroll-proportion="0.0" vertical-offset="3693" max-vertical-offset="4275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/TouchTreeGrid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6099">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6099" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="9" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-11.535714" vertical-offset="1349" max-vertical-offset="2945">
-          <folding />
-        </state>
+        <state line="88" column="9" selection-start="3994" selection-end="3994" vertical-scroll-proportion="-11.535714" vertical-offset="1349" max-vertical-offset="2945" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349">
-          <folding />
-        </state>
+        <state line="25" column="32" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/SettingControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="4" selection-start="1899" selection-end="2042" vertical-scroll-proportion="-2.86" vertical-offset="1282" max-vertical-offset="2090">
+        <state line="75" column="4" selection-start="1899" selection-end="2042" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="2090">
           <folding />
         </state>
       </provider>
@@ -668,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="12" selection-start="622" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1672">
           <folding>
-            <element signature="e#0#37#0" expanded="false" />
             <marker date="1399362627840" expanded="true" signature="87:1968" placeholder="{&quot;extend&quot;: 'Ext.data.TreeStore'...}" />
             <marker date="1399362627840" expanded="true" signature="234:1966" placeholder="{&quot;autoLoad&quot;: true...}" />
           </folding>
@@ -678,9 +635,7 @@
     <entry file="file://$PROJECT_DIR$/app/store/ProjectLocationStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="18" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1805">
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="41" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
           <folding>
-            <element signature="e#0#37#0" expanded="false" />
             <marker date="1399361382214" expanded="false" signature="1936:2070" placeholder="..." />
             <marker date="1399361382214" expanded="false" signature="2114:2155" placeholder="..." />
           </folding>
@@ -704,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/TouchTreeGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="35" selection-start="13458" selection-end="13458" vertical-scroll-proportion="-5.06" vertical-offset="5371" max-vertical-offset="23883">
+        <state line="309" column="35" selection-start="13458" selection-end="13458" vertical-scroll-proportion="0.0" vertical-offset="5871" max-vertical-offset="24130">
           <folding>
             <marker date="1399359899413" expanded="true" signature="6084:6109" placeholder="..." />
             <marker date="1399359899413" expanded="true" signature="6297:6303" placeholder="..." />
@@ -718,14 +672,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="40" selection-start="6889" selection-end="6889" vertical-scroll-proportion="-4.06" vertical-offset="4110" max-vertical-offset="6574">
+        <state line="227" column="40" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0" vertical-offset="4110" max-vertical-offset="6574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="-7.464286" vertical-offset="247" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="505" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2394">
+        <state line="65" column="39" selection-start="2309" selection-end="2315" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="2394">
           <folding>
             <marker date="1399363570601" expanded="true" signature="622:637" placeholder="..." />
             <marker date="1399363570601" expanded="true" signature="1024:1085" placeholder="..." />
@@ -736,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="59" selection-start="4089" selection-end="4089" vertical-scroll-proportion="0.52663934" vertical-offset="2669" max-vertical-offset="4579">
+        <state line="157" column="49" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.40983605" vertical-offset="2783" max-vertical-offset="4655">
           <folding />
         </state>
       </provider>
