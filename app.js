@@ -22,9 +22,8 @@ Ext.application({
     name: 'SfMobile',
 
     mainthis: '',
-
-    user: {name: '', password: ''},
-
+    user: {name: '', password: '',version:'1.0.0.90'},
+    
     requires: [
         'Ext.MessageBox',
         'Ext.data.proxy.SkProxy',
@@ -74,9 +73,8 @@ Ext.application({
         'RainYearModel',
 
         'PhotoModel',
-
+        'VersionModel',
         'SettingModel',
-
         'TreeModel'
     ],
 
@@ -92,7 +90,7 @@ Ext.application({
         'RainYearStore',
 
         'PhotoStore',
-
+        'VersionStore',
         'SettingStore',
 
         'ProjectLocationStore',

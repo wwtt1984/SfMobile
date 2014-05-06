@@ -1,4 +1,6 @@
 D:\work\touch\SfMobile\phonegap\platforms\android\bin\classes.dex : \
+D:\work\touch\SfMobile\phonegap\platforms\android\bin\classes\com\install\install\InstallPlugin$1.class \
+D:\work\touch\SfMobile\phonegap\platforms\android\bin\classes\com\install\install\InstallPlugin.class \
 D:\work\touch\SfMobile\phonegap\platforms\android\bin\classes\com\mycompany\sfmobile\BuildConfig.class \
 D:\work\touch\SfMobile\phonegap\platforms\android\bin\classes\com\mycompany\sfmobile\R$attr.class \
 D:\work\touch\SfMobile\phonegap\platforms\android\bin\classes\com\mycompany\sfmobile\R$drawable.class \

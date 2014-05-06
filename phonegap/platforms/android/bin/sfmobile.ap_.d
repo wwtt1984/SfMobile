@@ -31,11 +31,14 @@ D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\spec.html \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\css\index.css \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\img\logo.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\js\index.js \
+D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\com.install.install.Install \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\com.toast.toast.Toast \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.camera \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.file \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.file-transfer \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.geolocation \
+D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\com.install.install.Install\www \
+D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\com.install.install.Install\www\install.js \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\com.toast.toast.Toast\www \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\com.toast.toast.Toast\www\toast.js \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.camera\www \
@@ -138,6 +141,7 @@ D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\startup \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\css\app.css \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\css\my.css \
+D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\css\TouchTreeGrid.css \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\icons\icon-spot~ipad.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\icons\Icon.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\icons\Icon@2x.png \
@@ -145,7 +149,9 @@ D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\icons\Ico
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\icons\Icon~ipad@2x.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\icons\iTunesArtwork.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\add.png \
+D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\code3.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\function \
+D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\green3.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\contacts.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\header.png \
 D:\work\touch\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\header2.png \

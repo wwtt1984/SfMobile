@@ -184,31 +184,30 @@ Ext.define('SfMobile.controller.MainControl', {
         SfMobile.app.user.name = Ext.getCmp('name').getValue();
         SfMobile.app.user.password = Ext.getCmp('password').getValue();
 
-        if(SfMobile.app.user.name && SfMobile.app.user.password){
-            var results = SfMobile.app.user.name + '$' + SfMobile.app.user.password;
+        var results = SfMobile.app.user.name + "$" +  SfMobile.app.user.password;
+        Ext.Viewport.setMasked({xtype:'loadmask',message:'登录中,请稍后...'});
 
-            Ext.data.proxy.SkJsonp.validate('Login',results,{
-                success: function(response) {
-                    if(response.success == "true"){
-                        me.getMaintitle().onDataSet(SfMobile.app.user.name);
-                        var src = me.getMain();
-                        src.setActiveItem(me.getFunctionmain());
-                    }
-                    else{
-                        plugins.Toast.ShowToast("用户名或密码错误!",3000);
-//                        Ext.Msg.alert('用户名或密码错误！');
-                    }
-                },
-                failure: function(){
-                    plugins.Toast.ShowToast("请求失败，请重试！",3000);
-//                    Ext.Msg.alert('请求失败，请重试！');
+        Ext.data.proxy.SkJsonp.validate('CheckUserInfo',results,{
+            success: function(response) {
+                if(response.success == "true"){
+                    Ext.Viewport.setMasked(false);
+                    me.getMaintitle().onDataSet(SfMobile.app.user.name);
+                    var src = me.getMain();
+                    src.setActiveItem(me.getFunctionmain());
+                    me.onCheckVesion(me);
                 }
-            });
-        }
+                else{
+                    Ext.Viewport.setMasked(false);
+                    plugins.Toast.ShowToast("用户名或者密码错误！",3000);
+                }
+            },
+            failure: function(){
 
-        me.getMaintitle().onDataSet(SfMobile.app.user.name);
-        var src = me.getMain();
-        src.setActiveItem(me.getFunctionmain());
+                Ext.Viewport.setMasked(false);
+                plugins.Toast.ShowToast("请求失败，请重试！",3000);
+            }
+        });
+
     },
 
     //监听info页面的“主页面”按钮，点击后，返回“主功能”页面
@@ -337,5 +336,63 @@ Ext.define('SfMobile.controller.MainControl', {
                 me.getApplication().getController('RainControl').onInfoSearchSelectTap();
                 break;
         }
+    },
+
+    onCheckVesion:function(me)
+    {
+        var store = Ext.getStore('VersionStore');
+        store.getProxy().setExtraParams({
+            t: 'CheckVersion',
+            results: 'android'
+        });
+        store.load(function(records, operation, success){
+
+            if(records.length > 0)
+            {
+                if(records[0].data.strThisVersion != SfMobile.app.user.version)
+                {
+                    Ext.Msg.confirm("当前版本 " + SfMobile.app.user.version,
+                        "新版本("+records[0].data.strThisVersion+")，是否下载更新？",function(btn){
+                            if(btn == 'yes'){
+                                me.downLoad(records[0].data.strFileName,records[0].data.strGetFileVersionFileURL,me);
+                            }
+                        });
+                }
+            }
+
+        }, this);
+
+    },
+
+    downLoad:function(name,url,me)
+    {
+        var uri = encodeURI(url);
+        var fileTransfer = new FileTransfer();
+
+        fileTransfer.onprogress = function(progressEvent) {
+            if (progressEvent.lengthComputable) {
+                var percent = Number((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
+                me.getMaintitle().onDataSet(percent + "%");
+            } else {
+                plugins.Toast.ShowToast("error",1000);
+            }
+        };
+
+        alert("111");
+
+        fileTransfer.download(
+            uri,
+            "file:///storage/emulated/0/dx_download/" + name,
+            function(entry) {
+                Ext.Viewport.setMasked(false);
+                plugins.Toast.ShowToast("下载完成",3000);
+                plugins.Install.InstallApk("storage/emulated/0/dx_download/" + name);
+            },
+            function(error) {
+                Ext.Viewport.setMasked(false);
+                plugins.Toast.ShowToast(' '+error.source,3000);
+            }
+        );
     }
+
 })

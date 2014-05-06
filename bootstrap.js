@@ -750,6 +750,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.controller.MainControl": [],
   "SfMobile.controller.MarkControl": [],
   "SfMobile.controller.RainControl": [],
+  "SfMobile.controller.SettingControl": [],
   "SfMobile.controller.WaterControl": [],
   "SfMobile.model.FunctionModel": [],
   "SfMobile.model.PhotoModel": [],
@@ -757,14 +758,21 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.model.RainModel": [],
   "SfMobile.model.RainMonthModel": [],
   "SfMobile.model.RainYearModel": [],
+  "SfMobile.model.SettingModel": [],
+  "SfMobile.model.TreeModel": [],
+  "SfMobile.model.VersionModel": [],
   "SfMobile.model.WaterDayModel": [],
   "SfMobile.model.WaterModel": [],
   "SfMobile.store.FunctionStore": [],
   "SfMobile.store.PhotoStore": [],
+  "SfMobile.store.PlantLocationStore": [],
+  "SfMobile.store.ProjectLocationStore": [],
   "SfMobile.store.RainDayStore": [],
   "SfMobile.store.RainMonthStore": [],
   "SfMobile.store.RainStore": [],
   "SfMobile.store.RainYearStore": [],
+  "SfMobile.store.SettingStore": [],
+  "SfMobile.store.VersionStore": [],
   "SfMobile.store.WaterDayStore": [],
   "SfMobile.store.WaterStore": [],
   "SfMobile.view.Function": [],
@@ -772,6 +780,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.view.Login": [],
   "SfMobile.view.Main": [],
   "SfMobile.view.Title": [],
+  "SfMobile.view.TouchTreeGrid": [],
+  "SfMobile.view.mark.LocationTree": [],
   "SfMobile.view.mark.Mark": [],
   "SfMobile.view.mark.MarkMain": [],
   "SfMobile.view.mark.NewsImg": [],
@@ -782,6 +792,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.view.rain.RainMain": [],
   "SfMobile.view.rain.RainMonth": [],
   "SfMobile.view.rain.RainYear": [],
+  "SfMobile.view.settings.Frequency": [],
+  "SfMobile.view.settings.Password": [],
+  "SfMobile.view.settings.Setting": [],
   "SfMobile.view.water.Water": [],
   "SfMobile.view.water.WaterDay": [],
   "SfMobile.view.water.WaterDetail": [],
@@ -1736,6 +1749,7 @@ Ext.ClassManager.addNameAliasMappings({
   "SfMobile.controller.MainControl": [],
   "SfMobile.controller.MarkControl": [],
   "SfMobile.controller.RainControl": [],
+  "SfMobile.controller.SettingControl": [],
   "SfMobile.controller.WaterControl": [],
   "SfMobile.model.FunctionModel": [],
   "SfMobile.model.PhotoModel": [],
@@ -1743,14 +1757,25 @@ Ext.ClassManager.addNameAliasMappings({
   "SfMobile.model.RainModel": [],
   "SfMobile.model.RainMonthModel": [],
   "SfMobile.model.RainYearModel": [],
+  "SfMobile.model.SettingModel": [],
+  "SfMobile.model.TreeModel": [],
+  "SfMobile.model.VersionModel": [],
   "SfMobile.model.WaterDayModel": [],
   "SfMobile.model.WaterModel": [],
   "SfMobile.store.FunctionStore": [],
   "SfMobile.store.PhotoStore": [],
+  "SfMobile.store.PlantLocationStore": [
+    "store.PlantLocationStore"
+  ],
+  "SfMobile.store.ProjectLocationStore": [
+    "store.ProjectLocationStore"
+  ],
   "SfMobile.store.RainDayStore": [],
   "SfMobile.store.RainMonthStore": [],
   "SfMobile.store.RainStore": [],
   "SfMobile.store.RainYearStore": [],
+  "SfMobile.store.SettingStore": [],
+  "SfMobile.store.VersionStore": [],
   "SfMobile.store.WaterDayStore": [],
   "SfMobile.store.WaterStore": [],
   "SfMobile.view.Function": [
@@ -1767,6 +1792,12 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "SfMobile.view.Title": [
     "widget.maintitle"
+  ],
+  "SfMobile.view.TouchTreeGrid": [
+    "widget.touchtreegrid"
+  ],
+  "SfMobile.view.mark.LocationTree": [
+    "widget.locationtree"
   ],
   "SfMobile.view.mark.Mark": [
     "widget.mark"
@@ -1797,6 +1828,15 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "SfMobile.view.rain.RainYear": [
     "widget.rainyear"
+  ],
+  "SfMobile.view.settings.Frequency": [
+    "widget.frequency"
+  ],
+  "SfMobile.view.settings.Password": [
+    "widget.password"
+  ],
+  "SfMobile.view.settings.Setting": [
+    "widget.setting"
   ],
   "SfMobile.view.water.Water": [
     "widget.water"

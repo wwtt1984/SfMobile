@@ -3,10 +3,8 @@ Ext.define('Ext.data.proxy.SkJsonp', {
 	singleton: true,///////////////////实例化单列/////////////////////////////
 	
     config: {
-   		url: 'http://10.33.150.109:8006/MobileSfsk/Data_Ys.ashx',
-//        url: 'http://localhost/SfWebservice/Data_Ys.ashx',
+   		url: 'http://122.226.205.102/sbskSer/data_ht.ashx',
 		callbackKey: 'callback'
-
     },
 	
 	validate: function(t,results, options) {
