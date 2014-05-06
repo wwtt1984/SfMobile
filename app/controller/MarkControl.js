@@ -114,13 +114,13 @@ Ext.define('SfMobile.controller.MarkControl', {
         me.lat = position.coords.latitude;
         me.lng = position.coords.longitude;
         me.onUploadImg(me.lat,me.lng,me);
-
     },
 
-    onGeolocationFail:function(error)
+    onGeolocationFail:function(error,me)
     {
         Ext.Viewport.setMasked(false);
         plugins.Toast.ShowToast("定位失败!"+error.message,3000);
+        me.getMarkconfirm().enable();
     },
 
     onUploadImg:function(lat,lng,me){
@@ -152,10 +152,11 @@ Ext.define('SfMobile.controller.MarkControl', {
                 plugins.Toast.ShowToast("error",1000);
             }
         };
-        ft.upload(imageURI, encodeURI("http://webservices.qgj.cn/sbskService/Data_Ht.ashx?t=IntPhotoImg&results=" + results),
+
+        ft.upload(imageURI, encodeURI("http://122.226.205.102/sbskSer/data_ht.ashx?t=IntPhotoImg&results=" + results),
             function(r){me.onMenuPhotoSucMsg(r,me);},
             function(r){me.onMenuPhotoFailMsg(r,me);},
-        options);
+            options);
 
     }
 })
