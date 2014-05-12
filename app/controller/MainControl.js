@@ -181,16 +181,17 @@ Ext.define('SfMobile.controller.MainControl', {
     onLoginTap: function(){
 
         var me = this;
-        SfMobile.app.user.name = Ext.getCmp('name').getValue();
+        SfMobile.app.user.sid = Ext.getCmp('name').getValue();
         SfMobile.app.user.password = Ext.getCmp('password').getValue();
 
-        var results = SfMobile.app.user.name + "$" +  SfMobile.app.user.password;
+        var results = SfMobile.app.user.sid + "$" +  SfMobile.app.user.password;
         Ext.Viewport.setMasked({xtype:'loadmask',message:'登录中,请稍后...'});
 
         Ext.data.proxy.SkJsonp.validate('CheckUserInfo',results,{
             success: function(response) {
                 if(response.success == "true"){
                     Ext.Viewport.setMasked(false);
+                    SfMobile.app.user.name = response.sname;
                     me.getMaintitle().onDataSet(SfMobile.app.user.name);
                     var src = me.getMain();
                     src.setActiveItem(me.getFunctionmain());
@@ -372,13 +373,11 @@ Ext.define('SfMobile.controller.MainControl', {
         fileTransfer.onprogress = function(progressEvent) {
             if (progressEvent.lengthComputable) {
                 var percent = Number((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
-                me.getMaintitle().onDataSet(percent + "%");
+                me.getMaintitle().onDataSet('软件已下载' + percent + "%,请稍后...");
             } else {
                 plugins.Toast.ShowToast("error",1000);
             }
         };
-
-        alert("111");
 
         fileTransfer.download(
             uri,

@@ -155,7 +155,7 @@ Ext.define('SfMobile.controller.MarkControl', {
         var location = me.getLocation().getData().location;
 
         //增加“状态描述”
-        var location = me.getStatus().getValue();
+        //var location = me.getStatus().getValue();
 
         var miaos = me.getTarea_ms().getValue();
         var sdt = '2014-04-09';
@@ -167,8 +167,8 @@ Ext.define('SfMobile.controller.MarkControl', {
         options.fileName = imageURI.substr(imageURI.lastIndexOf('/')+1);
         options.mimeType = "image/jpeg";
 
-        var results = SfMobile.app.user.name +"$"
-            +"" + "$" + lng + "$" + lat + "$" + sdt
+        var results = SfMobile.app.user.sid +"$"
+            + SfMobile.app.user.name + "$" + lng + "$" + lat + "$" + sdt
             + "$sz$" + miaos + "$" + location;
 
         var ft = new FileTransfer();

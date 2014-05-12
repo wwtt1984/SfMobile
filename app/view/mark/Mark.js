@@ -84,6 +84,7 @@ Ext.define('SfMobile.view.mark.Mark', {
                         label: '请输入描述',
                         labelAlign: 'top',
                         xtype: 'textareafield',
+                        cls: 'miaos',
                         itemId:'tarea_ms',
                         value: '正常'
                     }]

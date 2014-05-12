@@ -22,7 +22,9 @@ Ext.define('SfMobile.controller.SettingControl', {
             markfrequency: '[itemId=markfrequency]',
             oldword: '[itemId=oldword]',
             newword: '[itemId=newword]',
-            wordchange: '[itemId=wordchange]'
+            wordchange: '[itemId=wordchange]',
+            sysquit: '[itemId=sysquit]'
+
         },
 
         control: {
@@ -34,7 +36,12 @@ Ext.define('SfMobile.controller.SettingControl', {
             },
             wordchange: {
                 tap: 'onWordChangeTap'
+            },
+            sysquit: {
+                tap: 'onSystemQuitTap'
             }
+
+
         }
     },
 
@@ -101,5 +108,10 @@ Ext.define('SfMobile.controller.SettingControl', {
         else{
             plugins.Toast.ShowToast("新密码不能为空!",3000);
         }
+    },
+
+    onSystemQuitTap: function(){
+        navigator.app.exitApp();
     }
+
 })

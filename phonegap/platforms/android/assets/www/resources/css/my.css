@@ -218,3 +218,8 @@
 .local-form .local-form-div .choose span{
     font-size:1em;
 }
+
+.miaos.x-field-textarea textarea {
+    min-height: 2em;
+    padding-top: .5em;
+}

@@ -22,7 +22,7 @@ Ext.application({
     name: 'SfMobile',
 
     mainthis: '',
-    user: {name: '', password: '',version:'1.0.0.90'},
+    user: {sid:'',name: '', password: '',version:'1.0.0.91'},
     
     requires: [
         'Ext.MessageBox',

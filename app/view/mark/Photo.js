@@ -40,7 +40,7 @@ Ext.define('SfMobile.view.mark.Photo',{
 
                     var me = this;
                     var store = Ext.getStore('PhotoStore');
-                    if(store.getCount() <= 5)
+                    if(store.getCount() <= 1)
                     {
 
                         navigator.camera.getPicture(
@@ -51,16 +51,10 @@ Ext.define('SfMobile.view.mark.Photo',{
                                 destinationType: Camera.DestinationType.FILE_URI
                         });
 
-//                        Ext.device.Camera.capture({
-//                            success :function(image){me.onPhotoDataSuccess(image)},
-//                            failure: function(){me.onFail},
-//                            quality: 50,
-//                            destination:  'file'
-//                        });
                     }
                     else
                     {
-                        navigator.Toast.ShowToast("单次同时最多只能上传5张图片!",3000);
+                        plugins.Toast.ShowToast("暂时只能上传1张图片!",3000);
                     }
 
                 },
@@ -71,7 +65,7 @@ Ext.define('SfMobile.view.mark.Photo',{
 
                 },
                 onFail: function(message) {
-                    navigator.Toast.ShowToast(message,3000);
+                    plugins.Toast.ShowToast(message,3000);
                 }
             }
         ]);

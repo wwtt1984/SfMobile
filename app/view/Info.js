@@ -20,7 +20,8 @@ Ext.define('SfMobile.view.Info', {
                     xtype: 'button',
                     itemId: 'infosearch',
                     ui: 'plain',
-                    docked: 'right',
+//                    docked: 'right',
+                    right: 0,
                     iconCls: 'search',
                     iconMasked: true,
                     hidden: true
@@ -29,7 +30,8 @@ Ext.define('SfMobile.view.Info', {
                     xtype: 'button',
                     itemId: 'locationconfirm',
                     text: '确定',
-                    docked: 'right',
+//                    docked: 'right',
+                    right: 0,
                     hidden: true
                 }
             ]
