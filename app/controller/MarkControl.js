@@ -70,7 +70,7 @@ Ext.define('SfMobile.controller.MarkControl', {
         else{
             me.markmain.setTitle('电厂巡查');
         }
-        me.getLocation().setData({location: '请选择部位'});
+        me.getLocation().setData({location: '请选择部位', detail: ''});
         me.getInfo().push(me.markmain);
 
     },
@@ -216,11 +216,12 @@ Ext.define('SfMobile.controller.MarkControl', {
         var arr = list.getSelection();
 
         me.projecttext = arr[0].data.text;
+        me.detail = arr[0].data.detail;
     },
 
     onLocationConfirmTap: function(){
         var me = this;
-        me.getLocation().setData({location: me.projecttext});
+        me.getLocation().setData({location: me.projecttext, detail: me.detail});
         me.getInfo().pop();
         me.getLocationconfirm().hide();
         me.getInfofunction().show();

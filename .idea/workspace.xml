@@ -2,33 +2,322 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a32525a-df06-4f1a-ba9f-9f12f35da8fe" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\work\touch\SfMobile\phonegap\platforms\android\bin\sfmobile-debug.apk" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/SettingControl.js" afterPath="$PROJECT_DIR$/app/controller/SettingControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/mark/DetailView.js" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\phonegap\platforms\android\bin\dexedLibs\classes-20eb8a2f98c3f21e28cd8e02d84ee8df.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\081a7e9783e1ac57727232237c60c07c863f1ecd\_Picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\084f025beb42750df114e6e17d9f273fd52fdf43\_Field.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\084f025beb42750df114e6e17d9f273fd52fdf43\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\084f025beb42750df114e6e17d9f273fd52fdf43\_Spinner.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\084f025beb42750df114e6e17d9f273fd52fdf43\_TextArea.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\084f025beb42750df114e6e17d9f273fd52fdf43\_Toggle.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\089223fcfb14c0da9fbfefb433ed63655f16108a\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\0bca1d36470ef128a3fd5c3bf9b6f1193b845a84\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\11d1db834ee37741e1bb127ccb981499473661f5\_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\11d1db834ee37741e1bb127ccb981499473661f5\_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Img.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Map.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Mask.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Media.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Menu.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_MessageBox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_ProgressIndicator.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Sheet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_Toolbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\12e40ba26efa847f5c843e9f5a760d7f30d48286\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_blueprint-grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_carbon-fiber.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_checkerboard.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_cicada.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_gradients.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_houndstooth.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_lined-paper.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_madras.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_noise.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_polka-dot.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_radial-overlay.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_striped.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_stripes.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_tablecloth.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\148261c233980d3cf0b39d7c98ec5145d29ebfff\_tartan.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_appearance.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_background-clip.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_background-origin.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_background-size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_border-radius.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_box-shadow.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_box-sizing.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_box.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_columns.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_filter.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_font-face.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_hyphenation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_images.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_opacity.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_regions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_shared.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_text-shadow.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_transform.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\17ba97eb0869d91484c0146161ff7c48037392d4\_transition.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\18d17dc1a3c3cfc514a07864052254de07c75bc6\_Field.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\18d17dc1a3c3cfc514a07864052254de07c75bc6\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\18d17dc1a3c3cfc514a07864052254de07c75bc6\_Spinner.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\18d17dc1a3c3cfc514a07864052254de07c75bc6\_TextArea.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\18d17dc1a3c3cfc514a07864052254de07c75bc6\_Toggle.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\190f3ee7000440064a41efa1659f4c6f298b248e\_DataView.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\190f3ee7000440064a41efa1659f4c6f298b248e\_IndexBar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\190f3ee7000440064a41efa1659f4c6f298b248e\_List.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1ba6b50eeca9022f06c63c462234c8b224183b8b\_Button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1ba6b50eeca9022f06c63c462234c8b224183b8b\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1ba6b50eeca9022f06c63c462234c8b224183b8b\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1ba6b50eeca9022f06c63c462234c8b224183b8b\_Sheet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1ba6b50eeca9022f06c63c462234c8b224183b8b\_Toolbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_Button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_Menu.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_MessageBox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_Sheet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_Toolbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\1cfcd61c17fa0788bf4e27a1b1f7956bae175481\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\208a362240048fc300e8f78b7dfcd8ea83b8ec71\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\258d8ebca8670360e7580f4ad6a6837fd773f9d9\_ListPaging.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\258d8ebca8670360e7580f4ad6a6837fd773f9d9\_PullRefresh.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\2b0ee4386de173dfd10842662d32a9a2376bdabe\_Table.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\2c84814e4be1853b16a786407780f00c461f2d2f\_Carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3756d0bfecbfe8e79c2823ca5c91889673056433\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3756d0bfecbfe8e79c2823ca5c91889673056433\_Toggle.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\39604d9bed85a1dbf6d5e11a7cc6dabfcabc8c06\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3a2bab5c017be5b99cba064204e4d1c5f3693fa2\_Carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3b2002dea06197f16506b38c7b5ad0a6976cdfd6\_Button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3b2002dea06197f16506b38c7b5ad0a6976cdfd6\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3b2002dea06197f16506b38c7b5ad0a6976cdfd6\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3b2002dea06197f16506b38c7b5ad0a6976cdfd6\_Sheet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3b2002dea06197f16506b38c7b5ad0a6976cdfd6\_Toolbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3d5ed31a612d923771e9df026092e5f5bc34c55a\app.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3e2170e2a33d74a35d2a698497eea18aa503d217\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\3e9ad58d6eab5c05a4405099ef416aa1a68222de\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\447b06aa6ff445a25f9f60066fa7457ddcf82cd4\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\45879ab7dd31e559dba9ad62c06b35ad512c0e1b\_base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\45879ab7dd31e559dba9ad62c06b35ad512c0e1b\_default.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\473663b44c22972e2b803ca70fb1cc7e56e67e47\_css3.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\473663b44c22972e2b803ca70fb1cc7e56e67e47\_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\475dfc415fe5153a22331d3d889ff545545cef61\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\47834acb500cceb969109639305f538cfdc5a15d\_ListPaging.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\47834acb500cceb969109639305f538cfdc5a15d\_PullRefresh.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\47cd8b4e18d7b32f16d89b2d336ae6bff33bf5aa\_ListPaging.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\47cd8b4e18d7b32f16d89b2d336ae6bff33bf5aa\_PullRefresh.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\5ceab4946e0b1deca210d26a15c472ff93f34bc5\_FieldSet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\5ceab4946e0b1deca210d26a15c472ff93f34bc5\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\5d0ed0b08442a680a29af331505479a8d9ffda20\_Grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\5e869ffb28003a4ee0ff935bef6ca0bb525637b7\_FieldSet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\5e869ffb28003a4ee0ff935bef6ca0bb525637b7\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\60511ad752b9ad109465a003e9c2b4f87730ce2e\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\624fc3f5c4973ccc5c3998de60482b67fc111b8a\_Grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\69ba8942080f9939861a02b01efdaed36c7294b6\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\6f1eea1ff61fdb67d0a5ff91a9be91f8ac9d4449\_IndexBar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\6f1eea1ff61fdb67d0a5ff91a9be91f8ac9d4449\_List.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_blueprint-grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_carbon-fiber.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_checkerboard.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_cicada.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_gradients.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_houndstooth.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_lined-paper.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_madras.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_noise.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_polka-dot.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_radial-overlay.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_striped.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_stripes.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_tablecloth.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\71e458aa342d441575c8fe1101b246083f2e1d97\_tartan.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\770cc6a5311b59b388e18a59b8332fc352e22554\_AbstractChart.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7b03572ff5da0a53fea8eefed980f70b0ee8e9ea\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7b23873ac4040b92b65f4adbcd6d9b535cb76a0f\_Picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7c426e79ae9bd60d157281fca34c9a96c127b399\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Img.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Map.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Mask.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Media.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Menu.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_MessageBox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_ProgressIndicator.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Sheet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_Toolbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\7d311a511c1e3d153ba7aa1c8af56aa78fc0881a\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\80773fee922559b311ab4cd074a5562259cb4d61\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\814dd2ca9ee45e268f82ec8ca059913a0f16f715\_background.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\814dd2ca9ee45e268f82ec8ca059913a0f16f715\_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\868ec88feac03014cbf737d6559743e7f9400aa5\_Abstract.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\868ec88feac03014cbf737d6559743e7f9400aa5\_Box.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\868ec88feac03014cbf737d6559743e7f9400aa5\_Card.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\868ec88feac03014cbf737d6559743e7f9400aa5\_Dock.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\868ec88feac03014cbf737d6559743e7f9400aa5\_Fit.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\868ec88feac03014cbf737d6559743e7f9400aa5\_Float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\8f9a8178cda28cd53e1598c950b470f60b433206\_Scroller.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\940a8d4bff3f622753032a4efe64d21f850ee6f2\_FieldSet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\940a8d4bff3f622753032a4efe64d21f850ee6f2\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9795a2bb33d378ba24949e3822e810a0f6cdc770\_FieldSet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9795a2bb33d378ba24949e3822e810a0f6cdc770\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9aaed0822801c508534aaef6aa32d2d3e9c153ec\_IndexBar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9aaed0822801c508534aaef6aa32d2d3e9c153ec\_List.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9bef5610e63171eb2c07497ef04c64d7e2fc4f9f\_PaintMonitor.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9bef5610e63171eb2c07497ef04c64d7e2fc4f9f\_SizeMonitor.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9bef5610e63171eb2c07497ef04c64d7e2fc4f9f\_Translatable.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\9e4b7ca02993ba7a37cfa28a3e141f9096b2030e\_Grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a131489788555514c7a9ca1fda1a892040edd3ac\_PaintMonitor.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a131489788555514c7a9ca1fda1a892040edd3ac\_SizeMonitor.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a131489788555514c7a9ca1fda1a892040edd3ac\_Translatable.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a479ecaf231c9a49e852a1571f1d391ccfd18a4e\_Carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a71c272eda94756b1e8c5c1cb4ee6694c2daa743\_Scroller.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a7cee0705dee6ec3a55ebf933221e17232ef1a0b\_Abstract.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a7cee0705dee6ec3a55ebf933221e17232ef1a0b\_Box.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a7cee0705dee6ec3a55ebf933221e17232ef1a0b\_Card.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a7cee0705dee6ec3a55ebf933221e17232ef1a0b\_Dock.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a7cee0705dee6ec3a55ebf933221e17232ef1a0b\_Fit.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a7cee0705dee6ec3a55ebf933221e17232ef1a0b\_Float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a92d83d8391f1a9d33500d45b480df35845329c5\_IndexBar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\a92d83d8391f1a9d33500d45b480df35845329c5\_List.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\ac7947fdfbdf21eb1517c7698470f102ccf26e90\_colors.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\ac7947fdfbdf21eb1517c7698470f102ccf26e90\_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\b096306a5d0ecb4aa1ca424aab8d7cfc7fba0936\_Picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\b3d4be44027c40a472fc9a311d99beced8ceca68\_Picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\b755fb71c734da91d982571e0858b5694c5253ab\_IndexBar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\b755fb71c734da91d982571e0858b5694c5253ab\_List.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\b9c4f3c6e867ebcd0709570451c566ffba24bf43\_Picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\bbf44928c91a04dbf373a03440fef686b0a2558f\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\bc16d8a2df5f8479ddfab2cee855aab1bdd9caf6\_Carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\bc3cbd76131002f35a6cb600332a52d0803097e2\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3a261dee540093d3a01734f5c60108599bda79a\_Grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Checkbox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Field.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Radio.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Search.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Select.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_Spinner.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c3ce33a111ced39c8f865ed1f106b1ed5b43dfad\_TextArea.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\c4433e822a8a428f62fe8424591775ddef51fece\_AbstractChart.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\cda43fdaef3b007018be086db645a139f559bf3e\_Carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d17cc415ab44a4c1a4db9a088ade6a48ed0ed855\_Picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d44a808d8db025d982c494247956012aa681f288\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d58a512ecaaba6e2b8169dce14b72d2f01fdd25a\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d58a512ecaaba6e2b8169dce14b72d2f01fdd25a\_Toggle.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d6b0f35c85435a23eaec64dd20980a3cc453d8b3\_Carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d9c5c098d1fb81254578520bb31b8f778fd0a7f3\_ListPaging.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\d9c5c098d1fb81254578520bb31b8f778fd0a7f3\_PullRefresh.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\dd2d3beeca10883f89c6ddfec8ae8b57921d52b4\_link-colors.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\de533b0420a528a3f122aac76a6a87b9fc9b173b\_base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\de533b0420a528a3f122aac76a6a87b9fc9b173b\_default.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e018a0f3c177d7271f9fc7b926895f1326e0ba98\app.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e03df2bb3a929245b172f1702fa9776d786bfbb4\_Table.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e578b5056c7828a4056dc116be05a4bfa8e25aee\_DataView.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e578b5056c7828a4056dc116be05a4bfa8e25aee\_IndexBar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e578b5056c7828a4056dc116be05a4bfa8e25aee\_List.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e748fa0d0a7caad0d832d74d29af8af379c01a97\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Checkbox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Field.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Radio.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Search.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Select.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_Spinner.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e7b8344564923b4904a45a2ba84ccd8180d42a5e\_TextArea.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\e9a8d4c6218187b649b4dc63623414f72049b8e8\_all.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\ec8e547ee7c92f63ba12a637513d591b628d6d24\_background.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\ec8e547ee7c92f63ba12a637513d591b628d6d24\_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_Button.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_Class.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_Menu.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_MessageBox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_Panel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_Sheet.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_Toolbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\USER\Desktop\SfMobile\resources\sass\.sass-cache\f7bb855c79f9caaff5bfe0bfac02562ec38c1e09\_all.scssc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/App.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$1.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/ContentFilesystem.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/ContentFilesystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/geolocation/CordovaLocationListener$LocationTimeoutTask.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/geolocation/CordovaLocationListener$LocationTimeoutTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/geolocation/CordovaLocationListener.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/geolocation/CordovaLocationListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/filetransfer/FileTransfer.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/filetransfer/FileTransfer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/FileUtils.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/Filesystem.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/Filesystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$CacheRequestImpl.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$CacheRequestImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/LocalFilesystem.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/org/apache/cordova/file/LocalFilesystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/PluginManager$PluginManagerService.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/PluginManager$PluginManagerService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/PluginManager.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/org/apache/cordova/PluginManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyReader.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyWriter.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/com/toast/toast/ToastPlugin.class" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes/com/toast/toast/ToastPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes.dex" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes.jar" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Info.js" afterPath="$PROJECT_DIR$/app/view/Info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/resources/css/my.css" afterPath="$PROJECT_DIR$/phonegap/www/resources/css/my.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/my.css" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/my.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/config.xml" afterPath="$PROJECT_DIR$/phonegap/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/app.js" afterPath="$PROJECT_DIR$/phonegap/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MarkControl.js" afterPath="$PROJECT_DIR$/app/controller/MarkControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/mark/Photo.js" afterPath="$PROJECT_DIR$/app/view/mark/Photo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/dexedLibs/classes-20eb8a2f98c3f21e28cd8e02d84ee8df.jar" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/dexedLibs/classes-20eb8a2f98c3f21e28cd8e02d84ee8df.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/my.css" afterPath="$PROJECT_DIR$/resources/css/my.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/config.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MainControl.js" afterPath="$PROJECT_DIR$/app/controller/MainControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/AndroidManifest.xml.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/AndroidManifest.xml.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/AndroidManifest.xml.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/AndroidManifest.xml.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/gen/org/apache/cordova/BuildConfig.java" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/gen/org/apache/cordova/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/gen/com/mycompany/sfmobile/BuildConfig.java" afterPath="$PROJECT_DIR$/phonegap/platforms/android/gen/com/mycompany/sfmobile/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Login.js" afterPath="$PROJECT_DIR$/app/view/Login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/mark/Mark.js" afterPath="$PROJECT_DIR$/app/view/mark/Mark.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MarkControl.js" afterPath="$PROJECT_DIR$/app/controller/MarkControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/PlantLocationStore.js" afterPath="$PROJECT_DIR$/app/store/PlantLocationStore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/ProjectLocationStore.js" afterPath="$PROJECT_DIR$/app/store/ProjectLocationStore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/gen/R.java.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/gen/R.java.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/gen/R.java.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/gen/R.java.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/TreeModel.js" afterPath="$PROJECT_DIR$/app/model/TreeModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/app.css" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/resources/css/app.css" afterPath="$PROJECT_DIR$/phonegap/www/resources/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/app.css" afterPath="$PROJECT_DIR$/resources/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.json" afterPath="$PROJECT_DIR$/bootstrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes.dex.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/classes.dex.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/native/SfMobile/sencha-compiler/app/full-page-master-bundle.js" afterPath="$PROJECT_DIR$/build/temp/native/SfMobile/sencha-compiler/app/full-page-master-bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/local.properties" afterPath="$PROJECT_DIR$/phonegap/platforms/android/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/local.properties" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/my.css" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/my.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/resources/css/my.css" afterPath="$PROJECT_DIR$/phonegap/www/resources/css/my.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SfMobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,25 +352,102 @@
       <file leaf-file-name="Login.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="45" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1501">
+            <state line="48" column="35" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1501">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilerootPlugin.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://D:/扩展代码/cordova-plugin-fileroot-master/src/android/FilerootPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="703" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkControl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MarkControl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="8" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.0" vertical-offset="3040" max-vertical-offset="4655">
+            <state line="221" column="37" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.25514403" vertical-offset="4075" max-vertical-offset="4674">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mark.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="5" selection-start="5494" selection-end="5494" vertical-scroll-proportion="0.0" vertical-offset="2498" max-vertical-offset="3021">
+              <folding>
+                <marker date="1399949627837" expanded="false" signature="646:661" placeholder="..." />
+                <marker date="1399949627837" expanded="false" signature="1048:1109" placeholder="..." />
+                <marker date="1399949627837" expanded="true" signature="1227:1293" placeholder="..." />
+                <marker date="1399949627837" expanded="true" signature="1227:1268" placeholder="..." />
+                <marker date="1399949627837" expanded="true" signature="1227:1322" placeholder="..." />
+                <marker date="1399949627837" expanded="true" signature="1438:1452" placeholder="..." />
+                <marker date="1399949627837" expanded="true" signature="1438:1453" placeholder="..." />
+                <marker date="1399949627837" expanded="true" signature="1537:1598" placeholder="..." />
+                <marker date="1399949627837" expanded="false" signature="4080:4159" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectLocationStore.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/ProjectLocationStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="28" selection-start="3045" selection-end="3088" vertical-scroll-proportion="0.0" vertical-offset="1533" max-vertical-offset="2071">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlantLocationStore.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/PlantLocationStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="30" selection-start="2717" selection-end="2717" vertical-scroll-proportion="-3.18" vertical-offset="1361" max-vertical-offset="1938">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/mark/DetailView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="1311">
+              <folding>
+                <marker date="1399949617603" expanded="true" signature="616:755" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="805:987" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="1025:1099" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="1148:1222" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="1350:1489" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="1725:1864" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="1976:2115" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="2189:2371" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="2415:2489" placeholder="..." />
+                <marker date="1399949617603" expanded="true" signature="2544:2618" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="26" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2888">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/TreeModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="31" selection-start="541" selection-end="541" vertical-scroll-proportion="-4.75" vertical-offset="190" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -97,26 +463,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../webstorm/tqsoft/index.html" />
-        <option value="$PROJECT_DIR$/app/model/VersionModel.js" />
-        <option value="$PROJECT_DIR$/app/store/VersionStore.js" />
-        <option value="$PROJECT_DIR$/app/lib/SkJsonp.js" />
-        <option value="$PROJECT_DIR$/app/lib/SkProxy.js" />
-        <option value="D:/扩展代码/cordova-plugin-fileroot-master/plugin.xml" />
-        <option value="D:/扩展代码/cordova-plugin-fileroot-master/src/android/ToastPlugin.java" />
-        <option value="$PROJECT_DIR$/app/controller/SettingControl.js" />
         <option value="$PROJECT_DIR$/app/controller/MainControl.js" />
         <option value="$PROJECT_DIR$/app/view/mark/Photo.js" />
         <option value="$PROJECT_DIR$/resources/css/my.css" />
-        <option value="$PROJECT_DIR$/app/view/mark/Mark.js" />
-        <option value="$PROJECT_DIR$/app/controller/MarkControl.js" />
         <option value="$PROJECT_DIR$/app/view/Info.js" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/phonegap/platforms/android/local.properties" />
+        <option value="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/local.properties" />
         <option value="$PROJECT_DIR$/app/view/Login.js" />
+        <option value="$PROJECT_DIR$/app/model/TreeModel.js" />
+        <option value="$PROJECT_DIR$/app/store/ProjectLocationStore.js" />
+        <option value="$PROJECT_DIR$/app/store/PlantLocationStore.js" />
+        <option value="$PROJECT_DIR$/app/view/mark/LocationView.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/controller/MarkControl.js" />
+        <option value="$PROJECT_DIR$/app/view/mark/DetailView.js" />
+        <option value="$PROJECT_DIR$/app/view/mark/Mark.js" />
       </list>
     </option>
   </component>
@@ -152,6 +522,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,6 +552,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="phonegap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonegap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CordovaLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,13 +689,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SfMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,14 +745,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -291,15 +755,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -347,14 +819,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21444528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -389,274 +861,40 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
+    <entry file="file://$PROJECT_DIR$/phonegap/platforms/android/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="4698" selection-end="4698" vertical-scroll-proportion="0.0" vertical-offset="2850" max-vertical-offset="6745">
+        <state line="9" column="30" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
+    <entry file="file://$PROJECT_DIR$/bootstrap.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="72" selection-start="3653" selection-end="3653" vertical-scroll-proportion="0.0" vertical-offset="2565" max-vertical-offset="3192">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3928572" vertical-offset="741" max-vertical-offset="2945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1387">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkJsonp.js">
+    <entry file="file://$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="22" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5833">
+        <state line="9" column="50" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
+    <entry file="file://$PROJECT_DIR$/packager.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="82" selection-start="4441" selection-end="4484" vertical-scroll-proportion="0.0" vertical-offset="2945" max-vertical-offset="3192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="190" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="5247" max-vertical-offset="5833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="38" selection-start="2732" selection-end="2732" vertical-scroll-proportion="0.0" vertical-offset="2033" max-vertical-offset="3458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="190" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="38" selection-start="2732" selection-end="2732" vertical-scroll-proportion="0.0" vertical-offset="2033" max-vertical-offset="3458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="190" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="41" selection-start="3657" selection-end="3657" vertical-scroll-proportion="0.0" vertical-offset="2698" max-vertical-offset="3458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="190" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="38" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="3458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="190" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="6" selection-start="2268" selection-end="2268" vertical-scroll-proportion="0.0" vertical-offset="1729" max-vertical-offset="3458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="190" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../webstorm/tqsoft/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="51" selection-start="15163" selection-end="15163" vertical-scroll-proportion="0.4880734" vertical-offset="7068" max-vertical-offset="11286" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/WaterDayModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="12" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/VersionStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.09760274" vertical-offset="0" max-vertical-offset="584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/VersionModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/RainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/WaterControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1501" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/RainStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/rain/Rain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/rain/RainDay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/rain/RainDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4294" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkJsonp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/SkProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Title.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="67" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/settings/Setting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1568" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phonegap/platforms/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
-      </provider>
-    </entry>
-    <entry file="file://D:/扩展代码/cordova-plugin-fileroot-master/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.51877135" vertical-offset="0" max-vertical-offset="798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/SettingControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="13" selection-start="2741" selection-end="2741" vertical-scroll-proportion="0.0" vertical-offset="1637" max-vertical-offset="2318" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="1" selection-start="8818" selection-end="8818" vertical-scroll-proportion="0.0" vertical-offset="3721" max-vertical-offset="4370" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="32" selection-start="4099" selection-end="4099" vertical-scroll-proportion="0.0" vertical-offset="1770" max-vertical-offset="2413" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/mark/Photo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="18" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-8.24" vertical-offset="915" max-vertical-offset="2926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="29" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1387" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="53" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1083">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.4215017" vertical-offset="190" max-vertical-offset="2679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="8" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.0" vertical-offset="2850" max-vertical-offset="4655">
+        <state line="19" column="32" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="3420">
           <folding />
         </state>
       </provider>
@@ -668,16 +906,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Login.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="45" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1501">
+        <state line="17" column="31" selection-start="541" selection-end="541" vertical-scroll-proportion="-4.75" vertical-offset="190" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/扩展代码/cordova-plugin-fileroot-master/src/android/FilerootPlugin.java">
+    <entry file="file://$PROJECT_DIR$/app/model/TreeModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="703" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2204">
+        <state line="9" column="20" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/ProjectLocationStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="28" selection-start="3045" selection-end="3088" vertical-scroll-proportion="0.0" vertical-offset="1533" max-vertical-offset="2071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="26" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2888">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/PlantLocationStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="30" selection-start="2717" selection-end="2717" vertical-scroll-proportion="-3.18" vertical-offset="1361" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/mark/DetailView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="1311">
+          <folding>
+            <marker date="1399949617603" expanded="true" signature="616:755" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="805:987" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="1025:1099" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="1148:1222" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="1350:1489" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="1725:1864" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="1976:2115" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="2189:2371" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="2415:2489" placeholder="..." />
+            <marker date="1399949617603" expanded="true" signature="2544:2618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="35" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1501">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="5" selection-start="5494" selection-end="5494" vertical-scroll-proportion="0.0" vertical-offset="2498" max-vertical-offset="3021">
+          <folding>
+            <marker date="1399949627837" expanded="false" signature="646:661" placeholder="..." />
+            <marker date="1399949627837" expanded="false" signature="1048:1109" placeholder="..." />
+            <marker date="1399949627837" expanded="true" signature="1227:1293" placeholder="..." />
+            <marker date="1399949627837" expanded="true" signature="1227:1268" placeholder="..." />
+            <marker date="1399949627837" expanded="true" signature="1227:1322" placeholder="..." />
+            <marker date="1399949627837" expanded="true" signature="1438:1452" placeholder="..." />
+            <marker date="1399949627837" expanded="true" signature="1438:1453" placeholder="..." />
+            <marker date="1399949627837" expanded="true" signature="1537:1598" placeholder="..." />
+            <marker date="1399949627837" expanded="false" signature="4080:4159" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="37" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.25514403" vertical-offset="4075" max-vertical-offset="4674">
           <folding />
         </state>
       </provider>

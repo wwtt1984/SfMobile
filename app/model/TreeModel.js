@@ -6,7 +6,8 @@ Ext.define('SfMobile.model.TreeModel',{
     extend: 'Ext.data.Model',
     config: {
         fields: [
-            'text'
+            'text',
+            'detail'
         ]
     }
 

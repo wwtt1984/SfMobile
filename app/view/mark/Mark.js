@@ -11,6 +11,7 @@ Ext.define('SfMobile.view.mark.Mark', {
     ],
 
     config: {
+        itemId: 'mark',
 
         scrollable: {
             direction: 'vertical',
@@ -35,6 +36,11 @@ Ext.define('SfMobile.view.mark.Mark', {
                     '<span>{location}</span>',
                     '<img src="resources/images/code3.png" style="color:#ccc;float:right;width:20px;height:20px;margin-top:3px;"/>',
                     '</div>',
+                    '<div class="choose" id="{[this.getLinkId(values,1)]}" style="border-top:1px solid #ccc;min-height: 2em;padding: 0 0.6em 0 0.4em;line-height: 2em;height:1em;">',
+//                            '<span>{[this.getContent(values.td)]}</span>',
+                    '<span style="font-size:14px;">详细巡视内容</span>',
+                    '<img src="resources/images/code3.png" style="color:#ccc;float:right;width:20px;height:20px;margin-top:9px;"/>',
+                    '</div>',
                     '</div>',
                     {
 
@@ -50,8 +56,14 @@ Ext.define('SfMobile.view.mark.Mark', {
 
                                 e.stopEvent();
                                 Ext.ComponentQuery.query('#tarea_ms')[0].blur();/////////////////把焦点失掉//////////////////////////
-//
-                                SfMobile.app.getController('MarkControl').onLocationTap();
+
+                                if(index == 0){
+                                    SfMobile.app.getController('MarkControl').onLocationTap();
+                                }
+                                else{
+                                    Ext.ComponentQuery.query('#mark')[0].onDetailViewShow(values);
+                                }
+
                             })//////增加点击的事件
                         }
                     }
@@ -65,7 +77,7 @@ Ext.define('SfMobile.view.mark.Mark', {
                         xtype: 'selectfield',
                         itemId: 'status',
                         label: '状态情况',
-                        labelAlign: 'top',
+//                        labelAlign: 'top',
                         doneButton: '确定',
                         cancelButton: '取消',
                         options: [
@@ -118,5 +130,25 @@ Ext.define('SfMobile.view.mark.Mark', {
                 html: ''
             }
         ]
+    },
+
+    onDetailViewShow: function(record){
+        this.view = this.down('detailview');
+        if(!this.view){
+            this.view = Ext.create('SfMobile.view.mark.DetailView');
+        }
+
+        if (Ext.os.deviceType.toLowerCase() == "phone") {
+            this.view.setWidth(null);
+            this.view.setMinHeight('45%');
+            this.view.setTop(null);
+            this.view.setLeft(0);
+        }
+        this.view.onDataSet(record);
+
+        if (!this.view.getParent()) {
+            Ext.Viewport.add(this.view);
+        }
+        this.view.show();
     }
 })

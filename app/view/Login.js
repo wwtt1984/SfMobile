@@ -33,15 +33,15 @@ Ext.define('SfMobile.view.Login', {
                                 xtype: 'textfield',
                                 id: 'name',
                                 name: 'name',
-                                label: '用户名'
-                                //value: 'admin'
+                                label: '用户名',
+                                value: 'admin'
                             },
                             {
                                 xtype: 'passwordfield',
                                 id: 'password',
                                 name: 'password',
-                                label: '密码'
-//                                value: 'sfsk123'
+                                label: '密码',
+                                value: 'sfsk123'
                             }]
                     },
                     {
