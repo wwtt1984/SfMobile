@@ -55,6 +55,7 @@ Ext.application({
         'mark.Photo',
         'mark.NewsImg',
         'mark.LocationTree',
+        'mark.DetailView',
 
         'settings.Setting',
         'settings.Frequency',
