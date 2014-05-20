@@ -381,11 +381,11 @@ Ext.define('SfMobile.controller.MainControl', {
 
         fileTransfer.download(
             uri,
-            "cdvfile://localhost/persistent/dx_download/" + name,
+            "cdvfile://localhost/persistent/Download/" + name,
             function(entry) {
                 Ext.Viewport.setMasked(false);
                 plugins.Toast.ShowToast("下载完成"+entry.fullPath,3000);
-                plugins.Install.InstallApk(entry.fullPath);
+                plugins.Install.InstallApk("mnt/sdcard"+entry.fullPath);
             },
             function(error) {
                 Ext.Viewport.setMasked(false);

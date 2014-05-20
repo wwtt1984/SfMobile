@@ -781,6 +781,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.view.Main": [],
   "SfMobile.view.Title": [],
   "SfMobile.view.TouchTreeGrid": [],
+  "SfMobile.view.mark.DetailView": [],
   "SfMobile.view.mark.LocationTree": [],
   "SfMobile.view.mark.Mark": [],
   "SfMobile.view.mark.MarkMain": [],
@@ -1795,6 +1796,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "SfMobile.view.TouchTreeGrid": [
     "widget.touchtreegrid"
+  ],
+  "SfMobile.view.mark.DetailView": [
+    "widget.detailview"
   ],
   "SfMobile.view.mark.LocationTree": [
     "widget.locationtree"

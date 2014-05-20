@@ -10,6 +10,9 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    <feature name="InstallPlugin">
+        <param name="android-package" value="com.install.install.InstallPlugin" />
+    </feature>
     <feature name="ToastPlugin">
         <param name="android-package" value="com.toast.toast.ToastPlugin" />
     </feature>
@@ -74,7 +77,4 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="http://127.0.0.1*" />
-    <feature name="InstallPlugin">
-        <param name="android-package" value="com.install.install.InstallPlugin" />
-    </feature>
 </widget>
