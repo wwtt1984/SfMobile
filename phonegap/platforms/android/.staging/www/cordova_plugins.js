@@ -78,13 +78,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/com.install.install.Install/www/install.js",
-        "id": "com.install.install.Install.install",
-        "clobbers": [
-            "window.plugins.Install"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -221,7 +214,6 @@ module.exports.metadata =
     "org.apache.cordova.camera": "0.2.8",
     "org.apache.cordova.file-transfer": "0.4.2",
     "org.apache.cordova.geolocation": "0.3.6",
-    "com.install.install.Install": "1.5.2",
     "org.apache.cordova.file": "1.0.1"
 }
 // BOTTOM OF METADATA
