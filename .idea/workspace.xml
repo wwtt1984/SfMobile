@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a32525a-df06-4f1a-ba9f-9f12f35da8fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/dexedLibs/classes-20eb8a2f98c3f21e28cd8e02d84ee8df.jar" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/dexedLibs/classes-20eb8a2f98c3f21e28cd8e02d84ee8df.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes.jar" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MainControl.js" afterPath="$PROJECT_DIR$/app/controller/MainControl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/plugins/android.json" afterPath="$PROJECT_DIR$/phonegap/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/app.js" afterPath="$PROJECT_DIR$/phonegap/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/.staging/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/.staging/www/cordova_plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainControl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainControl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="359" column="27" selection-start="10496" selection-end="10496" vertical-scroll-proportion="0.0" vertical-offset="6802" max-vertical-offset="7638">
+            <state line="359" column="27" selection-start="10496" selection-end="10496" vertical-scroll-proportion="-0.3989726" vertical-offset="7054" max-vertical-offset="7638">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstallPlugin.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InstallPlugin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://D:/扩展代码/cordova-plugin-install-master/src/android/InstallPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="33" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.87542665" vertical-offset="266" max-vertical-offset="2565">
+            <state line="17" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="1577" max-vertical-offset="2565">
               <folding />
             </state>
           </provider>
@@ -353,13 +344,18 @@
       <created>1399856855681</created>
       <updated>1399856855681</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1400564368953</created>
+      <updated>1400564368954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -374,7 +370,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -644,13 +639,6 @@
         <state line="160" column="8" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.0" vertical-offset="2850" max-vertical-offset="4655" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="27" selection-start="10496" selection-end="10496" vertical-scroll-proportion="0.0" vertical-offset="6802" max-vertical-offset="7638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/扩展代码/cordova-plugin-install-master/www/install.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
@@ -667,7 +655,14 @@
     </entry>
     <entry file="file://D:/扩展代码/cordova-plugin-install-master/src/android/InstallPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="33" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.87542665" vertical-offset="266" max-vertical-offset="2565">
+        <state line="17" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="1577" max-vertical-offset="2565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="359" column="27" selection-start="10496" selection-end="10496" vertical-scroll-proportion="-0.3989726" vertical-offset="7054" max-vertical-offset="7638">
           <folding />
         </state>
       </provider>
