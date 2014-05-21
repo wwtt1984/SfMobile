@@ -32,6 +32,11 @@ Ext.define('SfMobile.view.Function', {
                      '</div>'
                 )
             }
+//            {
+//                xclass: 'SfMobile.view.Load',
+////                hidden: true,
+//                style: 'height: 20px; position:absolute; top:80%;'
+//            }
         ]
     }
 });

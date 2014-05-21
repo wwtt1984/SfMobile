@@ -223,3 +223,22 @@
     min-height: 2em;
     padding-top: .5em;
 }
+
+
+/**********************下载进度条**********************/
+.download .loading-status{
+    width: 94%;
+    margin: 0 3% 0 3%;
+    border: 1px #669CB8 solid;
+    -webkit-box-shadow: 0px 2px 2px #D0D4D6;
+    height: 15px;
+    -webkit-border-radius: 10px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#E1E9EE), to(white));
+    padding: 1px;
+}
+.download .percent {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#7BC3FF), color-stop(0.5,#42A9FF), to(#7BC3FF));
+    /*width: 0%;*/
+    height: 100%;
+    -webkit-border-radius: 10px;
+}

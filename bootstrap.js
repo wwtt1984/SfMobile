@@ -777,6 +777,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.store.WaterStore": [],
   "SfMobile.view.Function": [],
   "SfMobile.view.Info": [],
+  "SfMobile.view.Load": [],
   "SfMobile.view.Login": [],
   "SfMobile.view.Main": [],
   "SfMobile.view.Title": [],
@@ -1784,6 +1785,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "SfMobile.view.Info": [
     "widget.info"
+  ],
+  "SfMobile.view.Load": [
+    "widget.load"
   ],
   "SfMobile.view.Login": [
     "widget.login"

@@ -21,7 +21,8 @@ Ext.define('SfMobile.controller.MainControl', {
             raindetail: 'raindetail',
             confirm: '#confirm',
 
-            locationconfirm: '[itemId=locationconfirm]'
+            locationconfirm: '[itemId=locationconfirm]',
+            load: '[itemId=load]'
         },
 
         control: {
@@ -350,11 +351,23 @@ Ext.define('SfMobile.controller.MainControl', {
 
             if(records.length > 0)
             {
+
                 if(records[0].data.strThisVersion != SfMobile.app.user.version)
                 {
                     Ext.Msg.confirm("当前版本 " + SfMobile.app.user.version,
                         "新版本("+records[0].data.strThisVersion+")，是否下载更新？",function(btn){
                             if(btn == 'yes'){
+
+                                me.load = me.getLoad();
+                                if(!me.load){
+                                    me.load = Ext.create('SfMobile.view.Load',{
+                                        itemId: 'load',
+                                        style: 'height: 20px; position:absolute; top:80%;'
+                                    });
+                                }
+                                me.getLoad().onDataSet(0);
+                                me.getFunctionmain().add(me.load);
+
                                 me.downLoad(records[0].data.strFileName,records[0].data.strGetFileVersionFileURL,me);
                             }
                         });
@@ -373,7 +386,7 @@ Ext.define('SfMobile.controller.MainControl', {
         fileTransfer.onprogress = function(progressEvent) {
             if (progressEvent.lengthComputable) {
                 var percent = Number((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
-                me.getMaintitle().onDataSet('软件已下载' + percent + "%,请稍后...");
+                me.getLoad().onDataSet(percent);
             } else {
                 plugins.Toast.ShowToast("error",1000);
             }
@@ -385,11 +398,14 @@ Ext.define('SfMobile.controller.MainControl', {
             function(entry) {
                 Ext.Viewport.setMasked(false);
                 plugins.Toast.ShowToast("下载完成"+entry.fullPath,3000);
+                me.getLoad().destroy();
                 plugins.Install.InstallApk("mnt/sdcard"+entry.fullPath);
             },
             function(error) {
+
                 Ext.Viewport.setMasked(false);
                 plugins.Toast.ShowToast(' '+error.source,3000);
+                me.getLoad().destroy();
             }
         );
     }

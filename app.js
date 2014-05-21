@@ -38,6 +38,7 @@ Ext.application({
         'Function',
         'Title',
         'Info',
+        'Load',
 
         'water.Water',
         'water.WaterDetail',
