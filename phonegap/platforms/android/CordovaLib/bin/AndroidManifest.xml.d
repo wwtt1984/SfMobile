@@ -1,2 +1,2 @@
-C:\Users\USER\Desktop\SfMobile\phonegap\platforms\android\CordovaLib\bin\AndroidManifest.xml : \
-C:\Users\USER\Desktop\SfMobile\phonegap\platforms\android\CordovaLib\AndroidManifest.xml \
+D:\work\touch\SfMobile\phonegap\platforms\android\CordovaLib\bin\AndroidManifest.xml : \
+D:\work\touch\SfMobile\phonegap\platforms\android\CordovaLib\AndroidManifest.xml \

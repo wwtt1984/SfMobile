@@ -22,6 +22,7 @@ Ext.application({
     name: 'SfMobile',
 
     mainthis: '',
+    gpstime:30000,//30秒
     user: {sid:'',name: '', password: '',version:'1.0.0.91'},
     
     requires: [

@@ -50,6 +50,9 @@ Ext.define('SfMobile.controller.MainControl', {
     onMainInit: function(){
         var me = this;
         SfMobile.app.mainthis = this;
+        this.closeApp = false;///////关闭APP为false ， 用来防止 定位没定到 就关闭程序了。
+        this.gpsreset = 30; ///////////////////////如果20次都没定位成功,则不重新定位了
+        this.nowgpscount = 0; /////////////////////当前重启GPS次数
 
         me.onBtnConfirm();
         //android返回键事件监听
@@ -197,6 +200,7 @@ Ext.define('SfMobile.controller.MainControl', {
                     var src = me.getMain();
                     src.setActiveItem(me.getFunctionmain());
                     me.onCheckVesion(me);
+                    me.onOpenGPS(me);///////////////////////////登录成功再定位
                 }
                 else{
                     Ext.Viewport.setMasked(false);
@@ -408,6 +412,60 @@ Ext.define('SfMobile.controller.MainControl', {
                 me.getLoad().destroy();
             }
         );
+    },
+
+    onOpenGPS:function(me){      ///////////////////////////////////////打开GPS//////////////////////////////////////
+
+        navigator.geolocation.getCurrentPosition(
+            function(position){me.onGpsSuccess(position,me);},
+            function(error){me.onGpsError(error,me);},
+            { maximumAge: 3000, timeout: 30000, enableHighAccuracy: true });
+    },
+
+    onGpsSuccess:function(position,me){
+
+        me.nowgpscount = 0;/////////////////////gps定位次数清0
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        //var sdt = this.unix_to_datetime(position.timestamp);
+        var results = SfMobile.app.user.sid + "$" + SfMobile.app.user.name
+            + "$" + lng + '$' + lat + '$$$$';
+        Ext.data.proxy.SkJsonp.validate('IntXcsj',results,{
+            success: function(response) {
+                /////////////程序不关闭的时候才可以继续循环。
+                if(!me.closeApp) me.TimeGPS = window.setTimeout(function(){me.onOpenGPS(me);},SfMobile.app.gpstime);
+            },
+            failure: function() {
+
+            }
+        });
+
+        Ext.getCmp('header').onGpsSet(1);
+    },
+
+    onGpsError:function(error,me){
+
+        plugins.Toast.ShowToast("GPS连接不上,请检查GPS是否开启或者到室外定位!",3000);
+        Ext.getCmp('header').onGpsSet(0);
+
+        if(!me.closeApp)//////////////////////////程序不关闭的受才可以。
+        {
+            ///////////////////////如果30次都没定位成功,则不重新定位了
+            if(me.nowgpscount < me.gpsreset)
+            {
+                me.TimeGPS = window.setTimeout(function(){
+                    plugins.Toast.ShowToast("正在尝试重新定位("+me.nowgpscount+"/"+me.gpsreset+")...",3000);
+                    me.onOpenGPS(me);
+                },SfMobile.app.gpstime);
+
+                me.nowgpscount++;
+            }
+            else
+            {
+                plugins.Toast.ShowToast("GPS连接失败,如需再次定位请点击GPS图标手动开启!",3000);
+            }
+        }
+
     }
 
 })
