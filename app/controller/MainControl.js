@@ -22,7 +22,9 @@ Ext.define('SfMobile.controller.MainControl', {
             confirm: '#confirm',
 
             locationconfirm: '[itemId=locationconfirm]',
-            load: '[itemId=load]'
+            load: '[itemId=load]',
+
+            mark: 'mark'
         },
 
         control: {
@@ -52,8 +54,20 @@ Ext.define('SfMobile.controller.MainControl', {
         SfMobile.app.mainthis = this;
 
         me.onBtnConfirm();
+        me.onDoChickAppIco();
         //android返回键事件监听
         document.addEventListener("backbutton", me.onBackKeyDown, false);
+    },
+
+    onDoChickAppIco:function(){   /////////执行点击应用程序图标事件
+
+        var me = this;
+        var data = '';
+        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0,
+            function(fileSystem){me.onwtreadFS(fileSystem,me,1,data);},
+            function(error){me.onwtfail(error,me);}
+        ); ////写文件
+
     },
 
     onDeviceReady: function(){
@@ -97,13 +111,6 @@ Ext.define('SfMobile.controller.MainControl', {
         else if(mainactive == "info")
         {
             document.removeEventListener("backbutton", me.onBackKeyDown, false); // 注销返回键
-            document.addEventListener("backbutton", me.onBackDo, false); // 返回键
-            var intervalID = window.setInterval(function() {
-                window.clearInterval(intervalID);
-                document.removeEventListener("backbutton", me.onBackDo, false); // 返回键
-                document.addEventListener("backbutton", me.onBackKeyDown, false); // 返回键
-            }, 2000);
-            //当前页面是其他的页面时，返回上一级页面
             me.onBackKeyTap();
         }
         else
@@ -153,7 +160,15 @@ Ext.define('SfMobile.controller.MainControl', {
 
             //巡查
             case 'markmain':
-                me.onInfoFunctionBackTap();
+                if((me.getMark().view) && (me.getMark().view.getHidden() == false)){
+                    me.getMark().view.hide();
+                }
+                else if(me.getInfo().view && (me.getInfo().view.getHidden() == false)){
+                    me.getInfo().view.hide();
+                }
+                else{
+                    me.onInfoFunctionBackTap();
+                }
                 break;
 
             case 'locationtree':
@@ -177,6 +192,8 @@ Ext.define('SfMobile.controller.MainControl', {
                 me.getInfofunction().show();
                 break;
         }
+
+        document.addEventListener("backbutton", me.onBackKeyDown, false); // 返回键
     },
 
     onLoginTap: function(){
@@ -185,30 +202,135 @@ Ext.define('SfMobile.controller.MainControl', {
         SfMobile.app.user.sid = Ext.getCmp('name').getValue();
         SfMobile.app.user.password = Ext.getCmp('password').getValue();
 
+
+        me.onUserCheck();
+
+    },
+
+    //用户验证
+    onUserCheck: function(){
+
+        var me = this;
+
         var results = SfMobile.app.user.sid + "$" +  SfMobile.app.user.password;
         Ext.Viewport.setMasked({xtype:'loadmask',message:'登录中,请稍后...'});
 
-        Ext.data.proxy.SkJsonp.validate('CheckUserInfo',results,{
-            success: function(response) {
-                if(response.success == "true"){
-                    Ext.Viewport.setMasked(false);
-                    SfMobile.app.user.name = response.sname;
-                    me.getMaintitle().onDataSet(SfMobile.app.user.name);
-                    var src = me.getMain();
-                    src.setActiveItem(me.getFunctionmain());
-                    me.onCheckVesion(me);
-                }
-                else{
-                    Ext.Viewport.setMasked(false);
-                    plugins.Toast.ShowToast("用户名或者密码错误！",3000);
-                }
-            },
-            failure: function(){
+        if(SfMobile.app.user.sid && SfMobile.app.user.password){
+            //用户名、密码输入完整
+            Ext.data.proxy.SkJsonp.validate('CheckUserInfo',results,{
+                success: function(response) {
+                    if(response.success == "true"){
+                        Ext.Viewport.setMasked(false);
+                        SfMobile.app.user.name = response.sname;
+                        me.getMaintitle().onDataSet(SfMobile.app.user.name);
+                        me.onUserWriteJson(); //将验证成功的用户信息，存在本地
+                        var src = me.getMain();
+                        src.setActiveItem(me.getFunctionmain());
+                        me.onCheckVesion(me);
+                    }
+                    else{
+                        Ext.Viewport.setMasked(false);
+                        plugins.Toast.ShowToast("用户名或者密码错误！",3000);
+                    }
+                },
+                failure: function(){
 
-                Ext.Viewport.setMasked(false);
-                plugins.Toast.ShowToast("请求失败，请重试！",3000);
-            }
+                    Ext.Viewport.setMasked(false);
+                    plugins.Toast.ShowToast("请求失败，请重试！",3000);
+                }
+            });
+        }
+        else{
+            //用户名、密码输入不完整
+            Ext.Viewport.setMasked(false);
+            plugins.Toast.ShowToast("用户名和密码不能为空！",3000);
+        }
+    },
+
+    onUserWriteJson: function(){
+        var me = this;
+        var json = [];
+        json.push({
+            sid: SfMobile.app.user.sid,
+            pwd: SfMobile.app.user.password,
+            name: SfMobile.app.user.name
         });
+
+        //将验证成功的用户信息，存在本地
+        ////////////////////////////////写入文件////////////////////////////////
+        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0,
+            function(fileSystem){me.onwtgotFS(fileSystem,me,json[0]);},
+            function(error){me.onwtfail(error,me);}
+        ); ////写文件
+    },
+
+    /////////////////////////////////写文件/////////////////////////////////////////////////
+
+    onwtgotFS:function(fileSystem,me,json) {
+        fileSystem.root.getFile("sflogin.json", {create: true, exclusive: false},
+            function(fileEntry){me.onwtgotFileEntry(fileEntry,me,json);},
+            function(error){me.onwtfail(error,me);}
+        );
+    },
+
+    onwtgotFileEntry:function(fileEntry,me,json) {
+        fileEntry.createWriter(
+            function(writer){me.onwtgotFileWriter(writer,me,json);},
+            function(error){me.onwtfail(error,me);}
+        );
+    },
+
+    onwtgotFileWriter:function(writer,me,json) {
+        writer.onwriteend = function(evt) {
+
+        }
+        writer.write("{\"sid\":\""+json.sid+"\",\"pwd\":\""+json.pwd+"\",\"name\":\""+json.name+"\"}");
+    },
+
+    //////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////读取文件///////////////////////////////////////////////////
+    onwtreadFS:function(fileSystem,me,num,data) {
+        fileSystem.root.getFile("sflogin.json", null,
+            function(fileEntry){me.onwtreadFileEntry(fileEntry,me,num,data);},
+            function(error){me.onwtfail(error,me);}
+        );
+    },
+
+    onwtreadFileEntry:function(fileEntry,me,num,data) {
+        fileEntry.file(
+            function(file){me.onwtreadFileWriter(file,me,num,data);},
+            function(error){me.onwtfail(error,me);}
+        );
+    },
+
+    onwtreadFileWriter:function(file,me,num,data) {
+
+        var reader = new FileReader();
+        reader.onloadend = function(evt) {
+
+            var json = Ext.decode(evt.target.result);
+            SfMobile.app.user.sid = json.sid;
+            SfMobile.app.user.password = json.pwd;
+            SfMobile.app.user.name = json.name;
+
+            Ext.getCmp('name').setValue(SfMobile.app.user.sid);
+            Ext.getCmp('password').setValue(SfMobile.app.user.password);
+
+            me.onUserCheck();
+
+        };
+        reader.readAsText(file);
+    },
+
+    onwtfail:function(error,me)
+    {
+        //plugins.Toast.ShowToast(error,3000);
+        if(error.code == 1) //////////表示文件不存在
+
+        {
+            //////////////////不管它///////////////////////////
+        }
 
     },
 
@@ -358,15 +480,19 @@ Ext.define('SfMobile.controller.MainControl', {
                         "新版本("+records[0].data.strThisVersion+")，是否下载更新？",function(btn){
                             if(btn == 'yes'){
 
-                                me.load = me.getLoad();
-                                if(!me.load){
-                                    me.load = Ext.create('SfMobile.view.Load',{
-                                        itemId: 'load',
-                                        style: 'height: 20px; position:absolute; top:80%;'
-                                    });
-                                }
-                                me.getLoad().onDataSet(0);
-                                me.getFunctionmain().add(me.load);
+//                                me.load = me.getLoad();
+//                                if(!me.load){
+//                                    me.load = Ext.create('SfMobile.view.Load',{
+//                                        itemId: 'load',
+//                                        style: 'height: 20px; position:absolute; top:80%;'
+//                                    });
+//                                }
+//                                me.getLoad().onDataSet(0);
+//                                me.getFunctionmain().add(me.load);
+//
+//                                me.downLoad(records[0].data.strFileName,records[0].data.strGetFileVersionFileURL,me);
+
+                                me.onLoadOrUploadViewShow();
 
                                 me.downLoad(records[0].data.strFileName,records[0].data.strGetFileVersionFileURL,me);
                             }
@@ -389,6 +515,7 @@ Ext.define('SfMobile.controller.MainControl', {
                 me.getLoad().onDataSet(percent);
             } else {
                 plugins.Toast.ShowToast("error",1000);
+                me.getLoad().hide();
             }
         };
 
@@ -398,16 +525,38 @@ Ext.define('SfMobile.controller.MainControl', {
             function(entry) {
                 Ext.Viewport.setMasked(false);
                 plugins.Toast.ShowToast("下载完成"+entry.fullPath,3000);
-                me.getLoad().destroy();
+                me.getLoad().hide();
                 plugins.Install.InstallApk("mnt/sdcard"+entry.fullPath);
             },
             function(error) {
 
                 Ext.Viewport.setMasked(false);
                 plugins.Toast.ShowToast(' '+error.source,3000);
-                me.getLoad().destroy();
+                me.getLoad().hide();
             }
         );
+    },
+
+    onLoadOrUploadViewShow: function(){
+
+        var me = this;
+
+        me.load = me.getLoad();
+
+        if(!me.load){
+            me.load = Ext.create('SfMobile.view.Load');
+        }
+
+        if (Ext.os.deviceType.toLowerCase() == "phone") {
+            me.load.setMinHeight('35%');
+        }
+
+        me.load.onDataSet(0);
+        if (!me.load.getParent()) {
+            Ext.Viewport.add(me.load);
+        }
+        me.load.show();
+
     }
 
 })

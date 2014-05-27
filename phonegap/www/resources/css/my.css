@@ -226,12 +226,27 @@
 
 
 /**********************下载进度条**********************/
+.download .header{
+    height:2.2em;
+    width:100%;
+    padding-left: 3%;
+    line-height:2.2em;
+    font-size:16px;
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#7BC3FF), color-stop(0.5,#42A9FF), to(#7BC3FF));
+}
+.download .content{
+    height:2.6em;
+    width:94%;
+    margin: 5px 3% 0 3%;
+    line-height:2.6em;
+    font-size:15px;
+}
 .download .loading-status{
     width: 94%;
-    margin: 0 3% 0 3%;
+    margin: 25px 3% 10px 3%;
     border: 1px #669CB8 solid;
     -webkit-box-shadow: 0px 2px 2px #D0D4D6;
-    height: 15px;
+    height: 14px;
     -webkit-border-radius: 10px;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#E1E9EE), to(white));
     padding: 1px;

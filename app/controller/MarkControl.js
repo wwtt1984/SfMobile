@@ -14,7 +14,7 @@ Ext.define('SfMobile.controller.MarkControl', {
         refs: {
             info: 'info',
             markmain: 'info markmain',
-            mark: 'info mark',
+            mark: 'mark',
             locationtree: 'info locationtree',
             photo: 'photo',
             photodelete: '[itemId=photodelete]',
