@@ -541,6 +541,30 @@ Ext.define('SfMobile.controller.MainControl', {
         );
     },
 
+    onLoadOrUploadViewShow: function(){
+
+        var me = this;
+
+        me.load = me.getLoad();
+
+        if(!me.load){
+            me.load = Ext.create('SfMobile.view.Load');
+        }
+
+        if (Ext.os.deviceType.toLowerCase() == "phone") {
+            me.load.setMinHeight('35%');
+        }
+
+        me.load.onDataSet(0);
+        if (!me.load.getParent()) {
+            Ext.Viewport.add(me.load);
+        }
+        me.load.show();
+
+    },
+
+
+
     onOpenGPS:function(me){      ///////////////////////////////////////打开GPS//////////////////////////////////////
 
         navigator.geolocation.getCurrentPosition(
@@ -592,28 +616,6 @@ Ext.define('SfMobile.controller.MainControl', {
                 plugins.Toast.ShowToast("GPS连接失败,如需再次定位请点击GPS图标手动开启!",3000);
             }
         }
-
-    },
-
-    onLoadOrUploadViewShow: function(){
-
-        var me = this;
-
-        me.load = me.getLoad();
-
-        if(!me.load){
-            me.load = Ext.create('SfMobile.view.Load');
-        }
-
-        if (Ext.os.deviceType.toLowerCase() == "phone") {
-            me.load.setMinHeight('35%');
-        }
-
-        me.load.onDataSet(0);
-        if (!me.load.getParent()) {
-            Ext.Viewport.add(me.load);
-        }
-        me.load.show();
 
     }
 
