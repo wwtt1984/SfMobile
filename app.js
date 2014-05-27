@@ -22,7 +22,8 @@ Ext.application({
     name: 'SfMobile',
 
     mainthis: '',
-    user: {sid:'',name: '', password: '',version:'1.0.0.90'},
+    gpstime:30000,//30秒
+    user: {sid:'',name: '', password: '',version:'1.0.0.91'},
     
     requires: [
         'Ext.MessageBox',
