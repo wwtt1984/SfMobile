@@ -29,13 +29,14 @@ Ext.define('SfMobile.view.settings.Frequency', {
                 items:[
                     {
                         xtype: 'selectfield',
+                        name: 'markfrequency',
                         itemId: 'markfrequency',
                         label: '巡查频率',
                         options: [
-                            {text: '30秒',  value: 'thirty'},
-                            {text: '1分钟', value: 'one'},
-                            {text: '2分钟',  value: 'two'},
-                            {text: '5分钟',  value: 'five'}
+                            {text: '30秒',  value: '30000'},
+                            {text: '1分钟', value: '60000'},
+                            {text: '2分钟',  value: '120000'},
+                            {text: '5分钟',  value: '300000'}
                         ]
                     }
                 ]

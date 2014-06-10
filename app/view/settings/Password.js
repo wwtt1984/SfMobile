@@ -29,12 +29,14 @@ Ext.define('SfMobile.view.settings.Password', {
                 items:[
                     {
                         xtype: 'textfield',
+                        name: 'oldword',
                         label: '原始密码',
                         itemId: 'oldword',
                         readOnly: true
                     },
                     {
                         xtype: 'textfield',
+                        name: 'newword',
                         label: '新密码',
                         itemId: 'newword'
                     }

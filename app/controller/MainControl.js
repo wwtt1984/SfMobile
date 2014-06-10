@@ -223,8 +223,10 @@ Ext.define('SfMobile.controller.MainControl', {
             Ext.data.proxy.SkJsonp.validate('CheckUserInfo',results,{
                 success: function(response) {
                     if(response.success == "true"){
+
                         Ext.Viewport.setMasked(false);
                         SfMobile.app.user.name = response.sname;
+                        SfMobile.app.gpstime = response.pl;
                         me.getMaintitle().onDataSet(SfMobile.app.user.name);
                         me.onUserWriteJson(); //将验证成功的用户信息，存在本地
                         var src = me.getMain();

@@ -23,7 +23,7 @@ Ext.application({
 
     mainthis: '',
     gpstime:30000,//30秒
-    user: {sid:'',name: '', password: '',version:'1.0.0.91'},
+    user: {sid:'',name: '', password: '',version:'1.0.0.89'},
     
     requires: [
         'Ext.MessageBox',
@@ -51,6 +51,7 @@ Ext.application({
         'rain.RainMain',
         'rain.RainDay',
         'rain.RainMonth',
+        'rain.RainArea',
 
         'mark.MarkMain',
         'mark.Mark',

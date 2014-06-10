@@ -13,6 +13,7 @@ Ext.define('SfMobile.controller.RainControl', {
             info: 'info',
             rain: 'info rain',
             raindetail: 'info raindetail',
+            rainarea: 'info rainarea',
             rainmain: 'rainmain',
 //            waterday: 'waterday',
             infofunction: '[itemId=infofunction]',
@@ -34,6 +35,18 @@ Ext.define('SfMobile.controller.RainControl', {
     onRainItemTap: function(list, index, target, record, e, eOpts){
         var me = this;
 
+        if(record.data.stnm == '面雨量'){
+            me.onRainAreaInitialize(record);
+        }
+        else{
+            me.onRainDetailInitialize(record);
+        }
+
+    },
+
+    onRainDetailInitialize: function(record){
+        var me = this;
+
         me.raindetail = me.getRaindetail();
         if(!me.raindetail){
             me.raindetail = Ext.create('SfMobile.view.rain.RainDetail');
@@ -48,7 +61,24 @@ Ext.define('SfMobile.controller.RainControl', {
 
         me.raindetail.onRainMainLoad(record);
         me.raindetail.setActiveItem(me.getRainmain());
+    },
 
+    onRainAreaInitialize: function(record){
+        var me = this;
+
+        me.rainarea = me.getRainarea();
+        if(!me.rainarea){
+            me.rainarea = Ext.create('SfMobile.view.rain.RainArea');
+        }
+
+
+//        me.rainarea.setTitle(record.data.stnm);
+
+        me.getInfofunction().hide();
+        me.getInfosearch().hide();
+        me.getInfo().push(me.rainarea);
+
+        me.rainarea.onStoreLoad(record);
     },
 
     onRainSegmentedTap: function(me, button, isPressed, eOpts){
