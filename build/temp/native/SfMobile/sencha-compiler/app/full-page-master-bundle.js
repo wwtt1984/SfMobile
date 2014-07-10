@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\Users\USER\Desktop\SfMobile\app.js
+// @require E:\project\沙畈水库\SfMobile\app.js

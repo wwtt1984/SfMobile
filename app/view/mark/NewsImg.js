@@ -10,10 +10,11 @@ Ext.define('SfMobile.view.mark.NewsImg',{
 	
 	config: {
 		itemId: 'newimg',
-        cls: 'fun-carousel',
+
 		items:[
 		{
 			xtype: 'carousel',
+            cls: 'fun-carousel',
             itemId: 'newscarousel',
 			style: 'position: absolute;margin:0; padding:0;width:100%;height:100%;background: #000;',
 		    direction: 'horizontal',
@@ -59,6 +60,7 @@ Ext.define('SfMobile.view.mark.NewsImg',{
         Ext.ComponentQuery.query('#newscarousel')[0].removeAll();
 
         for(var i=0; i<store.getAllCount() - 1; i++){
+//            item.push({xtype: 'image',cls: 'my-carousel-item-img',src: store.getAt(i).data.src});
             item.push({xtype: 'image',cls: 'my-carousel-item-img',src: store.getAt(i).data.src});
         }
 

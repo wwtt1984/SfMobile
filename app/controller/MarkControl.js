@@ -27,7 +27,9 @@ Ext.define('SfMobile.controller.MarkControl', {
             infofunction: '[itemId=infofunction]',
             locationconfirm: '[itemId=locationconfirm]',
             treeselect: '[itemId=treeselect]',
-            status: '[itemId=status]'
+            status: '[itemId=status]',
+            grade: '[itemId=grade]',
+            proccesstime: '[itemId=proccesstime]'
         },
 
         control: {
@@ -121,7 +123,8 @@ Ext.define('SfMobile.controller.MarkControl', {
             plugins.Toast.ShowToast("上传成功!",3000);
             me.getPhoto().onPhotoAllDelete();
             me.getTarea_ms().setValue(null);
-            Ext.getCmp('onprogress').setHtml(null);
+            me.getApplication().getController('MainControl').getLoad().hide();
+//            Ext.getCmp('onprogress').setHtml(null);
             me.upimgindex = 0;
             me.upimgcount = 0; //// 清0
             me.getMarkconfirm().enable();
@@ -131,6 +134,7 @@ Ext.define('SfMobile.controller.MarkControl', {
     onMenuPhotoFailMsg:function(error,me)
     {
         plugins.Toast.ShowToast("上传失败!"+ error,3000);
+        me.getApplication().getController('MainControl').getLoad().hide();
         me.getMarkconfirm().enable();
     },
 
@@ -172,13 +176,15 @@ Ext.define('SfMobile.controller.MarkControl', {
             + "$sz$" + miaos + "$" + location;
 
         var ft = new FileTransfer();
+        me.getApplication().getController('MainControl').onLoadOrUploadViewShow('正在上传中', '正在上传第1张', 0);
         ft.onprogress = function(progressEvent) {
             if (progressEvent.lengthComputable) {
                 var percent = Number((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
                 var nowindex = me.upimgindex + 1;
-                Ext.getCmp('onprogress').setHtml("正在上传第 "+ nowindex +"/"
-                    + me.upimgcount
-                    + " 图片,已完成" + percent + "%,请稍后...");
+//                Ext.getCmp('onprogress').setHtml("正在上传第 "+ nowindex +"/"
+//                    + me.upimgcount
+//                    + " 图片,已完成" + percent + "%,请稍后...");
+                me.getApplication().getController('MainControl').getLoad().onDataSet('正在上传中', '正在上传第'+ nowindex + '/' + me.upimgcount + '张,已完成',percent);
             } else {
                 plugins.Toast.ShowToast("error",1000);
             }
@@ -231,10 +237,15 @@ Ext.define('SfMobile.controller.MarkControl', {
     onStatusChange: function(field, newValue, oldValue, eOpts){
         var me = this;
         if(newValue == 'normal'){
-            me.getTarea_ms().setValue('正常');
+            me.getTarea_ms().setValue('安全');
+            me.getGrade().hide();
+            me.getProccesstime().hide();
         }
         else{
             me.getTarea_ms().setValue('');
+            me.getGrade().show();
+            me.getProccesstime().show();
+            me.getProccesstime().blur();
         }
     }
 })

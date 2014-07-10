@@ -16,7 +16,10 @@ Ext.define('SfMobile.model.WaterModel',{
             'KR',
 
             'WarnSW',
-            'DangerSW'
+            'DangerSW',
+
+            'yesEighthourSW',
+            'LL'
         ]
     }
 

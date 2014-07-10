@@ -76,14 +76,32 @@ Ext.define('SfMobile.view.mark.Mark', {
                     {
                         xtype: 'selectfield',
                         itemId: 'status',
-                        label: '状态情况',
-//                        labelAlign: 'top',
+                        label: '安全状态',
                         doneButton: '确定',
                         cancelButton: '取消',
                         options: [
-                            {text: '正常',  value: 'normal'},
-                            {text: '不正常', value:'abnormal'}
+                            {text: '安全',  value: 'normal'},
+                            {text: '不安全', value:'abnormal'}
                         ]
+                    },
+                    {
+                        xtype: 'selectfield',
+                        itemId: 'grade',
+                        hidden: true,
+                        label: '隐患等级',
+                        doneButton: '确定',
+                        cancelButton: '取消',
+                        options: [
+                            {text: '一般',  value: '1'},
+                            {text: '较大', value:'2'},
+                            {text: '严重', value:'3'}
+                        ]
+                    },
+                    {
+                        xtype: 'textfield',
+                        hidden: true,
+                        itemId: 'proccesstime',
+                        label: '处理时间'
                     }
                 ]
             },
@@ -98,7 +116,7 @@ Ext.define('SfMobile.view.mark.Mark', {
                         xtype: 'textareafield',
                         cls: 'miaos',
                         itemId:'tarea_ms',
-                        value: '正常'
+                        value: '安全'
                     }]
             },
             {
@@ -107,7 +125,7 @@ Ext.define('SfMobile.view.mark.Mark', {
             },
             {
                 xtype: 'photo',
-                style: 'background:#fff;border-radius: .4em;min-height:80px;'
+                style: 'background:#fff;border-radius: .4em;border:1px #eee solid;min-height:80px;'
             },
             {
                 xtype: 'panel',
@@ -123,11 +141,6 @@ Ext.define('SfMobile.view.mark.Mark', {
                     }
                 ]
 
-            },
-            {
-                xtype: 'panel',
-                id:'onprogress',
-                html: ''
             }
         ]
     },

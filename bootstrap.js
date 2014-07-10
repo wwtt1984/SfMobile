@@ -789,6 +789,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "SfMobile.view.mark.NewsImg": [],
   "SfMobile.view.mark.Photo": [],
   "SfMobile.view.rain.Rain": [],
+  "SfMobile.view.rain.RainArea": [],
   "SfMobile.view.rain.RainDay": [],
   "SfMobile.view.rain.RainDetail": [],
   "SfMobile.view.rain.RainMain": [],
@@ -1821,6 +1822,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "SfMobile.view.rain.Rain": [
     "widget.rain"
+  ],
+  "SfMobile.view.rain.RainArea": [
+    "widget.rainarea"
   ],
   "SfMobile.view.rain.RainDay": [
     "widget.rainday"

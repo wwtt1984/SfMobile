@@ -150,6 +150,12 @@ Ext.define('SfMobile.controller.MainControl', {
                 me.getInfosearch().hide();
                 break;
 
+            case 'rainarea':
+                me.getInfo().pop();
+                me.getInfofunction().show();
+                me.getInfosearch().hide();
+                break;
+
             //水情
             case 'water':
                 me.onInfoFunctionBackTap();
@@ -498,7 +504,7 @@ Ext.define('SfMobile.controller.MainControl', {
 //
 //                                me.downLoad(records[0].data.strFileName,records[0].data.strGetFileVersionFileURL,me);
 
-                                me.onLoadOrUploadViewShow();
+                                me.onLoadOrUploadViewShow('更新下载中', '正在下载中');
 
                                 me.downLoad(records[0].data.strFileName,records[0].data.strGetFileVersionFileURL,me);
                             }
@@ -518,7 +524,7 @@ Ext.define('SfMobile.controller.MainControl', {
         fileTransfer.onprogress = function(progressEvent) {
             if (progressEvent.lengthComputable) {
                 var percent = Number((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
-                me.getLoad().onDataSet(percent);
+                me.getLoad().onDataSet('更新下载中', '正在下载中', percent);
             } else {
                 plugins.Toast.ShowToast("error",1000);
                 me.getLoad().hide();
@@ -535,7 +541,6 @@ Ext.define('SfMobile.controller.MainControl', {
                 plugins.Install.InstallApk("mnt/sdcard"+entry.fullPath);
             },
             function(error) {
-
                 Ext.Viewport.setMasked(false);
                 plugins.Toast.ShowToast(' '+error.source,3000);
                 me.getLoad().hide();
@@ -543,7 +548,7 @@ Ext.define('SfMobile.controller.MainControl', {
         );
     },
 
-    onLoadOrUploadViewShow: function(){
+    onLoadOrUploadViewShow: function(header, text){
 
         var me = this;
 
@@ -557,7 +562,7 @@ Ext.define('SfMobile.controller.MainControl', {
             me.load.setMinHeight('35%');
         }
 
-        me.load.onDataSet(0);
+        me.load.onDataSet(header, text, 0);
         if (!me.load.getParent()) {
             Ext.Viewport.add(me.load);
         }

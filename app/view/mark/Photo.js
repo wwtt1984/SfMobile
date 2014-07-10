@@ -48,6 +48,9 @@ Ext.define('SfMobile.view.mark.Photo',{
                             function(){me.onFail},
                             {
                                 quality: 50,
+                                targetWidth: 900,
+                                targetHeight: 1200,
+                                correctOrientation: true,
                                 destinationType: Camera.DestinationType.FILE_URI
                         });
 
@@ -62,7 +65,6 @@ Ext.define('SfMobile.view.mark.Photo',{
 
 //                        WebQgjApp.app.imginfo.imgjson.push(imageData);
                     Ext.ComponentQuery.query('#photo')[0].onDataSet(imageData);
-
                 },
                 onFail: function(message) {
                     plugins.Toast.ShowToast(message,3000);

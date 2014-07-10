@@ -26,6 +26,7 @@ Ext.application({
     user: {sid:'',name: '', password: '',version:'1.0.0.89'},
     
     requires: [
+        'Ext.device.FileSystem',
         'Ext.MessageBox',
         'Ext.data.proxy.SkProxy',
         'Ext.data.proxy.SkJsonp',
