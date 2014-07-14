@@ -37,7 +37,7 @@ Ext.define('SfMobile.view.rain.Rain', {
             '<div style="width:25%;font-size:18px;line-height:2.2em;text-align:center;padding:0;margin:0;overflow:hidden;text-overflow: clip;white-space: nowrap;float:left;">{stnm}</div>',
             '<div style="width:25%;font-size:18px;line-height:2.2em;text-align:center;padding:0;margin:0;float:left;">{[this.formatNull(values.OnehourYL)]}</div>',
             '<div style="width:25%;font-size:18px;line-height:2.2em;text-align:center;padding:0;margin:0;float:left;">{[this.formatNull(values.today)]}</div>',
-            '<div style="width:25%;font-size:18px;line-height:2.2em;text-align:center;padding:0;margin:0;float:right;">{[this.formatNull(values.today)]}</div>',
+            '<div style="width:25%;font-size:18px;line-height:2.2em;text-align:center;padding:0;margin:0;float:right;">{[this.formatNull(values.yesterday)]}</div>',
             {
                 formatNull: function(data) {
                     if(data != ''){
