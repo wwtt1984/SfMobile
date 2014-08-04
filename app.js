@@ -23,7 +23,7 @@ Ext.application({
 
     mainthis: '',
     gpstime:30000,//30秒
-    user: {sid:'',name: '', password: '',version:'1.0.0.89'},
+    user: {sid:'',name: '', password: '',version:'1.0.0.93'},
     
     requires: [
         'Ext.device.FileSystem',
