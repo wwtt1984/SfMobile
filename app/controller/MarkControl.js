@@ -211,10 +211,10 @@ Ext.define('SfMobile.controller.MarkControl', {
             + SfMobile.app.user.name + "$" + lng + "$" + lat + "$" + sdt
             + "$sz$" + miaos + "$" + location + "$" + me.simgid + "$" + me.upimgindex
             + "$" + processtime + "$" + grade;
-        alert(SfMobile.app.user.sid +"$"
-            + SfMobile.app.user.name + "$" + lng + "$" + lat + "$" + sdt
-            + "$sz$" + miaos + "$" + location + "$" + me.simgid + "$" + me.upimgindex
-            + "$" + processtime + "$" + grade);
+//        alert(SfMobile.app.user.sid +"$"
+//            + SfMobile.app.user.name + "$" + lng + "$" + lat + "$" + sdt
+//            + "$sz$" + miaos + "$" + location + "$" + me.simgid + "$" + me.upimgindex
+//            + "$" + processtime + "$" + grade);
 
         var ft = new FileTransfer();
         me.getApplication().getController('MainControl').onLoadOrUploadViewShow('正在上传中', '正在上传第1张', 0);
@@ -241,7 +241,6 @@ Ext.define('SfMobile.controller.MarkControl', {
     //点击“上传”按钮，上传失败后，将事件加入UploadStore中，同时存入本地文件fail.json中
     onFailDataAdd: function(position){
 
-        alert('添加只uploadstore');
         var me = this;
 
         var imgjson = SfMobile.app.imginfo.imgjson.join(',');
@@ -277,7 +276,6 @@ Ext.define('SfMobile.controller.MarkControl', {
 
         store.sync();
 
-        alert('UploadStore' + store.getAllCount());
         me.onFailRecordToJson(store, 0);
     },
 
@@ -307,7 +305,6 @@ Ext.define('SfMobile.controller.MarkControl', {
     //UploadStore中记录增减的同时，修改本地文件fail.json文件
     onFailRecordToJson: function(store, id){
 
-        alert('开始添加至文件！');
         var hq = [];
 
         for(var i = 0; i < store.getAllCount(); i++){
@@ -321,7 +318,6 @@ Ext.define('SfMobile.controller.MarkControl', {
             size: 1024 * 1024,
             success: function(fileSystem) {
 
-                alert('进入文件系统！');
                 me.fs = fileSystem;
 
                 var fe = Ext.create("Ext.device.filesystem.FileEntry", "sffail.json", fileSystem);
@@ -331,25 +327,23 @@ Ext.define('SfMobile.controller.MarkControl', {
                         file: 'sffail.json',
                         options: {create: true},
                         success: function(entry) {
-                            alert('找到了sffail');
                             fe.write(
                                 {
                                     data: Ext.JSON.encode(hq),
                                     success: function() {
-                                        alert('存入成功');
-                                        plugins.Toast.ShowToast("失败记录已存入本地文件中！",3000);
+                                        plugins.Toast.ShowToast("已更新记录文件！",3000);
                                         if(id == 0){
                                             me.onPhotoInit();
                                         }
                                     },
                                     failure: function(error) {
-                                        plugins.Toast.ShowToast("失败记录存入本地文件失败！请重试！",3000);
+                                        plugins.Toast.ShowToast("更新记录文件失败！请重试！",3000);
                                     }
                                 });
                         },
 
                         failure: function(error){
-                            plugins.Toast.ShowToast("本地文件获取失败！",3000);
+                            plugins.Toast.ShowToast("记录文件获取失败！",3000);
                         }
                     });
             },
@@ -481,17 +475,15 @@ Ext.define('SfMobile.controller.MarkControl', {
                                     if(data){
                                         var hq = Ext.JSON.decode(data);
 
-                                        plugins.Toast.ShowToast("存在上传失败记录！",3000);
                                         var store = Ext.getStore('UploadStore');
                                         store.setData(hq);
                                         store.sync();
-                                        alert("失败记录:" + store.getAllCount());
                                     }
 
                                 },
 
                                 failure: function(error){
-                                    plugins.Toast.ShowToast("不存在上传失败记录！",3000);
+                                    plugins.Toast.ShowToast("不存在记录文件！",3000);
                                 }
                             });
                         },
