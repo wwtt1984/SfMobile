@@ -50,6 +50,23 @@ Ext.define('SfMobile.view.mark.NewsImg',{
 		}]		
 	},
 
+    onImgDataSet: function(values){
+        Ext.ComponentQuery.query('#photodelete')[0].hide();
+        var img = [];
+        img = values.imgjson.split(',');
+
+        var item =[];
+
+        this.down('carousel').removeAll();
+
+        for(var i=0; i<img.length; i++){
+
+            item.push({xtype: 'image',cls: 'my-carousel-item-img',src: img[i]});
+        }
+
+        this.down('carousel').setItems(item);
+    },
+
     onPhotoDataSet: function(id, index){
 
         Ext.ComponentQuery.query('#photodelete')[0].show();

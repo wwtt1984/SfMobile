@@ -257,3 +257,77 @@
     height: 100%;
     -webkit-border-radius: 10px;
 }
+
+/******************************************************/
+/*****列表删除按钮样式*************/
+.list-demo{
+    position: relative;
+    min-height: 2.6em;
+    border-bottom: 1px #ccc solid;
+    line-height: 2.6em;
+    padding: 10px;
+}
+
+.my-buttons{
+    color: #d90303;
+    background: #ddd;
+    /*top: 50%;*/
+    height: 2.5em;
+    border: none;
+}
+.my-buttons .x-button-icon:before{
+    font-size: 1.6em;
+    line-height: 1em;
+}
+.my-buttons .x-button-label{
+    font-size: 14px;
+    line-height: 1.4em;
+}
+.my-buttons.x-iconalign-left .x-button-label,.my-buttons.x-iconalign-left .x-badge {
+    margin-left: 0;
+}
+.my-buttons.x-unsized,.my-buttons.x-button-normal,.my-buttons.x-button,.my-buttons.x-iconalign-center,.my-buttons.x-dock-item.x-docked-right{
+    margin:15px 0px 0px 10px !important;
+}
+
+/*****************************************/
+/*.list-item .img-container{
+	float:left;
+	margin-right: 10px;
+	width: 67px;
+	height:100%;
+}*/
+.news-list .list-item .photo {
+    float: left;
+    width: 80px;
+    height: 60px;
+    position:absolute;
+    top: 50%;
+    margin: -30px 10px 0 0;
+}
+.news-list .list-item h1 {
+    /*    white-space: nowrap;*/
+    font-size: 90%;
+    line-height: 1.6em;
+    position:relative;
+    margin: 0 0px 0 85px;
+}
+
+.news-list .list-item .time {
+    position:relative;
+    font-size: 13px;
+    line-height: 2em;
+    color:#333;
+    margin: 0 0px -5px 85px;
+}
+
+.news-list .list-item p {
+    position:relative;
+    font-size: 75%;
+    color:#cccccc;
+    margin: 0 -10px 0 85px;
+}
+
+.news-list .photo {
+    border: 1px solid #999;
+}

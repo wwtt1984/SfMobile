@@ -40,30 +40,39 @@ Ext.define('SfMobile.view.mark.Photo',{
 
                     var me = this;
                     var store = Ext.getStore('PhotoStore');
-                    if(store.getCount() <= 1)
+                    if(store.getCount() <= 5)
                     {
 
-                        navigator.camera.getPicture(
-                            function(image){me.onPhotoDataSuccess(image)},
-                            function(){me.onFail},
-                            {
-                                quality: 50,
-                                targetWidth: 900,
-                                targetHeight: 1200,
-                                correctOrientation: true,
-                                destinationType: Camera.DestinationType.FILE_URI
+//                        navigator.camera.getPicture(
+//                            function(image){me.onPhotoDataSuccess(image)},
+//                            function(){me.onFail},
+//                            {
+//                                quality: 50,
+//                                targetWidth: 900,
+//                                targetHeight: 1200,
+//                                correctOrientation: true,
+//                                destinationType: Camera.DestinationType.FILE_URI
+//                        });
+                        Ext.device.Camera.capture({
+                            success :function(image){me.onPhotoDataSuccess(image)},
+                            failure: function(){me.onFail},
+                            quality: 50,
+                            targetWidth: 900,
+                            targetHeight: 1200,
+                            correctOrientation: true,
+                            destination:  'file'
                         });
 
                     }
                     else
                     {
-                        plugins.Toast.ShowToast("暂时只能上传1张图片!",3000);
+                        plugins.Toast.ShowToast("暂时只能上传5张图片!",3000);
                     }
 
                 },
                 onPhotoDataSuccess: function(imageData) {
 
-//                        WebQgjApp.app.imginfo.imgjson.push(imageData);
+                    SfMobile.app.imginfo.imgjson.push(imageData);
                     Ext.ComponentQuery.query('#photo')[0].onDataSet(imageData);
                 },
                 onFail: function(message) {

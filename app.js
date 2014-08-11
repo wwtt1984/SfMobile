@@ -24,13 +24,16 @@ Ext.application({
     mainthis: '',
     gpstime:30000,//30秒
     user: {sid:'',name: '', password: '',version:'1.0.0.93'},
+
+    imginfo:{imgjson:[],imgindex:0,imgpos:'',simgid:''},//图片值 图片id，位置
     
     requires: [
         'Ext.device.FileSystem',
         'Ext.MessageBox',
         'Ext.data.proxy.SkProxy',
         'Ext.data.proxy.SkJsonp',
-        'Ext.device.Camera'
+        'Ext.device.Camera',
+        'Ext.data.proxy.LocalStorage'
     ],
 
     views: [
@@ -63,7 +66,11 @@ Ext.application({
 
         'settings.Setting',
         'settings.Frequency',
-        'settings.Password'
+        'settings.Password',
+
+        'history.History',
+        'history.HistoryItem',
+        'history.HistoryDetail'
     ],
 
     models: [
@@ -80,7 +87,9 @@ Ext.application({
         'PhotoModel',
         'VersionModel',
         'SettingModel',
-        'TreeModel'
+        'TreeModel',
+
+        'UploadModel'
     ],
 
     stores: [
@@ -99,7 +108,9 @@ Ext.application({
         'SettingStore',
 
         'ProjectLocationStore',
-        'PlantLocationStore'
+        'PlantLocationStore',
+
+        'UploadStore'
     ],
 
     controllers: [
@@ -107,7 +118,8 @@ Ext.application({
         'WaterControl',
         'RainControl',
         'MarkControl',
-        'SettingControl'
+        'SettingControl',
+        'HistoryControl'
     ],
 
     icon: {

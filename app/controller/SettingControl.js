@@ -13,6 +13,7 @@ Ext.define('SfMobile.controller.SettingControl', {
 
         refs: {
             main: 'main',
+            login: 'login',
             infofunction: '[itemId=infofunction]',
             info: 'info',
             setting: 'info setting',
@@ -23,7 +24,8 @@ Ext.define('SfMobile.controller.SettingControl', {
             oldword: '[itemId=oldword]',
             newword: '[itemId=newword]',
             wordchange: '[itemId=wordchange]',
-            sysquit: '[itemId=sysquit]'
+            sysquit: '[itemId=sysquit]',
+            changeuser: '[itemId=changeuser]'
 
         },
 
@@ -39,8 +41,10 @@ Ext.define('SfMobile.controller.SettingControl', {
             },
             sysquit: {
                 tap: 'onSystemQuitTap'
+            },
+            changeuser: {
+                tap: 'onChangeUserTap'
             }
-
 
         }
     },
@@ -176,6 +180,12 @@ Ext.define('SfMobile.controller.SettingControl', {
 
     onSystemQuitTap: function(){
         navigator.app.exitApp();
+    },
+
+    onChangeUserTap: function(){
+        var me = this;
+        var src = me.getMain();
+        src.setActiveItem(me.getLogin());
     }
 
 })

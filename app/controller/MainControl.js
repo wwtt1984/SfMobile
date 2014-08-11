@@ -200,6 +200,21 @@ Ext.define('SfMobile.controller.MainControl', {
                 me.getInfo().pop();
                 me.getInfofunction().show();
                 break;
+
+            ////////////////本地记录//////////////
+            case 'history':
+                me.onInfoFunctionBackTap();
+                break;
+
+            case 'historydetail':
+                if((me.getInfo().view) && (me.getInfo().view.getHidden() == false)){
+                    me.getInfo().onViewHide();
+                }
+                else{
+                    me.getInfo().pop();
+                    me.getInfofunction().show();
+                }
+                break;
         }
 
         document.addEventListener("backbutton", me.onBackKeyDown, false); // 返回键
@@ -239,6 +254,7 @@ Ext.define('SfMobile.controller.MainControl', {
                         src.setActiveItem(me.getFunctionmain());
                         me.onCheckVesion(me);
                         me.onOpenGPS(me);///////////////////////////登录成功再定位
+
                     }
                     else{
                         Ext.Viewport.setMasked(false);
@@ -363,6 +379,12 @@ Ext.define('SfMobile.controller.MainControl', {
             me.getInfofunction().show();
             me.getLocationconfirm().hide();
             me.getInfosearch().hide();
+
+            switch(view.getActiveItem().xtype){
+                case 'history':
+                    me.getApplication().getController('HistoryControl').getUploadall().show();
+                    break;
+            }
         }
     },
 
@@ -377,7 +399,7 @@ Ext.define('SfMobile.controller.MainControl', {
 
         me.getMain().add(me.info);
 
-        var titlestr = ['water', 'rain', 'projectmark', 'plantmark', 'settings'];
+        var titlestr = ['water', 'rain', 'projectmark', 'plantmark', 'settings', 'history'];
 
         switch(record.data.name){
             case titlestr[0]:
@@ -394,6 +416,9 @@ Ext.define('SfMobile.controller.MainControl', {
                 break;
             case titlestr[4]:
                 me.getApplication().getController('SettingControl').onSettingInitialize();
+                break;
+            case titlestr[5]:
+                me.getApplication().getController('HistoryControl').onHistoryInitialize();
                 break;
         }
         me.getMain().setActiveItem(me.getInfo());
@@ -587,7 +612,7 @@ Ext.define('SfMobile.controller.MainControl', {
         var lng = position.coords.longitude;
         //var sdt = this.unix_to_datetime(position.timestamp);
         var results = SfMobile.app.user.sid + "$" + SfMobile.app.user.name
-            + "$" + lng + '$' + lat + '$$$$';
+            + "$" + lng + '$' + lat + '$$$$$$$';
         Ext.data.proxy.SkJsonp.validate('IntXcsj',results,{
             success: function(response) {
                 /////////////程序不关闭的时候才可以继续循环。
@@ -597,14 +622,11 @@ Ext.define('SfMobile.controller.MainControl', {
 
             }
         });
-
-        Ext.getCmp('header').onGpsSet(1);
     },
 
     onGpsError:function(error,me){
 
         plugins.Toast.ShowToast("GPS连接不上,请检查GPS是否开启或者到室外定位!",3000);
-        Ext.getCmp('header').onGpsSet(0);
 
         if(!me.closeApp)//////////////////////////程序不关闭的受才可以。
         {

@@ -80,8 +80,8 @@ Ext.define('SfMobile.view.mark.Mark', {
                         doneButton: '确定',
                         cancelButton: '取消',
                         options: [
-                            {text: '安全',  value: 'normal'},
-                            {text: '不安全', value:'abnormal'}
+                            {text: '安全',  value: '安全'},
+                            {text: '不安全', value:'不安全'}
                         ]
                     },
                     {
@@ -92,15 +92,15 @@ Ext.define('SfMobile.view.mark.Mark', {
                         doneButton: '确定',
                         cancelButton: '取消',
                         options: [
-                            {text: '一般',  value: '1'},
-                            {text: '较大', value:'2'},
-                            {text: '严重', value:'3'}
+                            {text: '一般',  value: '一般'},
+                            {text: '较大', value:'较大'},
+                            {text: '严重', value:'严重'}
                         ]
                     },
                     {
                         xtype: 'textfield',
                         hidden: true,
-                        itemId: 'proccesstime',
+                        itemId: 'processtime',
                         label: '处理时间'
                     }
                 ]
@@ -131,13 +131,23 @@ Ext.define('SfMobile.view.mark.Mark', {
                 xtype: 'panel',
                 height: '4em',
                 style: 'margin: 15px 0 15px 0',
+                layout: 'hbox',
                 items: [
                     {
                         xtype: 'button',
                         text: '上传',
                         cls: 'demobtn',
-                        style: 'height: 2.2em;margin: 15px 0 0 0;',
-                        itemId: 'markconfirm'
+                        style: 'height: 2.2em;margin: 15px 10px 0 0;',
+                        itemId: 'markconfirm',
+                        flex: 1
+                    },
+                    {
+                        xtype: 'button',
+                        text: '本地保存',
+                        cls: 'demobtn',
+                        style: 'height: 2.2em;margin: 15px 0 0 10px;',
+                        itemId: 'saveconfirm',
+                        flex: 1
                     }
                 ]
 

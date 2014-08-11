@@ -158,6 +158,7 @@ E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\ima
 E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\contacts.png \
 E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\header.png \
 E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\header2.png \
+E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\history.png \
 E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\mark.png \
 E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\plantmark.png \
 E:\project\É³î²Ë®¿â\SfMobile\phonegap\platforms\android\assets\www\resources\images\function\projectmark.png \
