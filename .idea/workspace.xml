@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a32525a-df06-4f1a-ba9f-9f12f35da8fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/HistoryControl.js" afterPath="$PROJECT_DIR$/app/controller/HistoryControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes.jar" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/sfmobile.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/MarkControl.js" afterPath="$PROJECT_DIR$/app/controller/MarkControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/app.js" afterPath="$PROJECT_DIR$/phonegap/www/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/CordovaLib/bin/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" afterPath="$PROJECT_DIR$/phonegap/platforms/android/bin/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SfMobile.iws" />
@@ -30,7 +37,7 @@
       <file leaf-file-name="MainControl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="36" selection-start="7904" selection-end="7904" vertical-scroll-proportion="-2.48" vertical-offset="4873" max-vertical-offset="12464">
+            <state line="505" column="30" selection-start="14940" selection-end="14940" vertical-scroll-proportion="3.22" vertical-offset="9756" max-vertical-offset="12464">
               <folding />
             </state>
           </provider>
@@ -74,29 +81,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RainControl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controller/RainControl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="22" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HistoryControl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HistoryControl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/HistoryControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="17" selection-start="2813" selection-end="2813" vertical-scroll-proportion="-5.105708" vertical-offset="4486" max-vertical-offset="4959">
+            <state line="252" column="13" selection-start="8116" selection-end="8116" vertical-scroll-proportion="0.0" vertical-offset="4486" max-vertical-offset="4959">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarkControl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MarkControl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="351" column="43" selection-start="11263" selection-end="11263" vertical-scroll-proportion="-6.56" vertical-offset="6341" max-vertical-offset="9576">
+            <state line="75" column="13" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.3257143" vertical-offset="1254" max-vertical-offset="9614">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mark.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="54" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="3458">
+              <folding>
+                <marker date="1407483047296" expanded="false" signature="646:661" placeholder="..." />
+                <marker date="1407483047296" expanded="false" signature="1048:1109" placeholder="..." />
+                <marker date="1407483047296" expanded="false" signature="1227:1322" placeholder="..." />
+                <marker date="1407483047296" expanded="false" signature="1438:1453" placeholder="..." />
+                <marker date="1407483047296" expanded="false" signature="1537:1598" placeholder="..." />
+                <marker date="1407483047296" expanded="false" signature="4757:4836" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,15 +119,6 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="9" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/UploadModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
@@ -141,7 +146,6 @@
         <option value="$PROJECT_DIR$/app/view/history/HistoryImg.js" />
         <option value="$PROJECT_DIR$/app/view/Info.js" />
         <option value="$PROJECT_DIR$/app/view/mark/NewsImg.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/model/UploadModel.js" />
         <option value="$PROJECT_DIR$/app/view/history/HistoryDetail.js" />
         <option value="$PROJECT_DIR$/app/view/history/HistoryItem.js" />
@@ -151,8 +155,9 @@
         <option value="$PROJECT_DIR$/app/view/settings/Setting.js" />
         <option value="$PROJECT_DIR$/app/controller/SettingControl.js" />
         <option value="$PROJECT_DIR$/app/controller/MainControl.js" />
-        <option value="$PROJECT_DIR$/app/controller/MarkControl.js" />
         <option value="$PROJECT_DIR$/app/controller/HistoryControl.js" />
+        <option value="$PROJECT_DIR$/app/controller/MarkControl.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -507,14 +512,17 @@
       <created>1407745696607</created>
       <updated>1407745696607</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial commit&#10;">
+      <created>1407746937250</created>
+      <updated>1407746937250</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -529,6 +537,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -553,39 +562,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/history/HistoryDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="3" selection-start="4201" selection-end="4201" vertical-scroll-proportion="0.0" vertical-offset="1225" max-vertical-offset="1748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/mark/NewsImg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="45" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="2109">
-          <folding />
-        </state>
+        <state line="66" column="45" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="2109" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/history/History.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="27" column="5" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/UploadStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="45" selection-start="3474" selection-end="3474" vertical-scroll-proportion="-4.76" vertical-offset="1415" max-vertical-offset="3458">
-          <folding />
-        </state>
+        <state line="13" column="9" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/history/HistoryItem.js">
@@ -597,9 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/UploadModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
+        <state line="5" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/RainControl.js">
@@ -646,23 +633,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/HistoryControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="13" selection-start="8116" selection-end="8116" vertical-scroll-proportion="0.0" vertical-offset="4486" max-vertical-offset="4959">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/mark/Mark.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="54" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="3458">
+          <folding>
+            <marker date="1407483047296" expanded="false" signature="646:661" placeholder="..." />
+            <marker date="1407483047296" expanded="false" signature="1048:1109" placeholder="..." />
+            <marker date="1407483047296" expanded="false" signature="1227:1322" placeholder="..." />
+            <marker date="1407483047296" expanded="false" signature="1438:1453" placeholder="..." />
+            <marker date="1407483047296" expanded="false" signature="1537:1598" placeholder="..." />
+            <marker date="1407483047296" expanded="false" signature="4757:4836" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/MainControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="36" selection-start="7904" selection-end="7904" vertical-scroll-proportion="-2.48" vertical-offset="4873" max-vertical-offset="12464">
+        <state line="505" column="30" selection-start="14940" selection-end="14940" vertical-scroll-proportion="3.22" vertical-offset="9756" max-vertical-offset="12464">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="61" selection-start="967" selection-end="967" vertical-scroll-proportion="0.35315984" vertical-offset="285" max-vertical-offset="3192">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/MarkControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="43" selection-start="11263" selection-end="11263" vertical-scroll-proportion="-6.56" vertical-offset="6341" max-vertical-offset="9576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/HistoryControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="17" selection-start="2813" selection-end="2813" vertical-scroll-proportion="-5.105708" vertical-offset="4486" max-vertical-offset="4959">
+        <state line="75" column="13" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.3257143" vertical-offset="1254" max-vertical-offset="9614">
           <folding />
         </state>
       </provider>

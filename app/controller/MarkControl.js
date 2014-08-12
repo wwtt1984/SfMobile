@@ -141,7 +141,9 @@ Ext.define('SfMobile.controller.MarkControl', {
     onPhotoInit: function(){
         var me = this;
         me.getPhoto().onPhotoAllDelete();
+        me.getGrade().setValue('一般');
         me.getTarea_ms().setValue(null);
+        me.getProcesstime().setValue(null);
 //            Ext.getCmp('onprogress').setHtml(null);
         SfMobile.app.imginfo.imgjson.length = 0;
         me.upimgindex = 0;
