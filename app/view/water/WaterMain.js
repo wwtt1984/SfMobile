@@ -52,13 +52,13 @@ Ext.define('SfMobile.view.water.WaterMain', {
             '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.newKR)]}</td>',
             '</tr>',
             '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
-            '<td width="30%" style="border:1px solid #ccc;">台汛期警戒水位</td>',
-            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.WarnSW)]}</td>',
+            '<td width="30%" style="border:1px solid #ccc;">台汛水位</td>',
+            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.txjjsw)]}</td>',
             '</tr>',
 
             '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
-            '<td width="30%" style="border:1px solid #ccc;">梅汛期警戒水位</td>',
-            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.DangerSW)]}</td>',
+            '<td width="30%" style="border:1px solid #ccc;">梅汛水位</td>',
+            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.mxjjsw)]}</td>',
             '</tr>',
             '</table>',
             {

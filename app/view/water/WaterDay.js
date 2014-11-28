@@ -23,10 +23,15 @@ Ext.define('SfMobile.view.water.WaterDay', {
             '<td width="30%" style="border:1px solid #ccc;">测站编号</td>',
             '<td width="70%" style="border:1px solid #ccc;">{stcd1}</td>',
             '</tr>',
-            '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
-            '<td width="30%" style="border:1px solid #ccc;">8时水位</td>',
-            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.eighthourSW)]}</td>',
-            '</tr>',
+
+            '<tpl for="HourSW">',
+                '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
+                    '<td width="30%" style="border:1px solid #ccc;">{time}</td>',
+                    '<td width="70%" style="border:1px solid #ccc;">{value}</td>',
+                '</tr>',
+            '</tpl>',
+
+
             '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
             '<td width="30%" style="border:1px solid #ccc;">最新水位</td>',
             '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.newSW)]}</td>',
@@ -37,8 +42,13 @@ Ext.define('SfMobile.view.water.WaterDay', {
             '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.newTM)]}</td>',
             '</tr>',
             '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
-            '<td width="30%" style="border:1px solid #ccc;">警戒水位</td>',
-            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.WarnSW)]}</td>',
+            '<td width="30%" style="border:1px solid #ccc;">台汛水位</td>',
+            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.txjjsw)]}</td>',
+            '</tr>',
+
+            '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',
+            '<td width="30%" style="border:1px solid #ccc;">梅汛水位</td>',
+            '<td width="70%" style="border:1px solid #ccc;">{[this.formatNull(values.mxjjsw)]}</td>',
             '</tr>',
 
             '<tr width="100%" style="height: 2.2em;line-height:2.2em;border:1px solid #ccc;font-size:15px;text-align:center;">',

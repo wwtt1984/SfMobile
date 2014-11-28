@@ -8,14 +8,25 @@ Ext.define('SfMobile.model.WaterDayModel',{
             'stcd1',
             'stnm1',
 
-            'eighthourSW',
-            'WarnSW',
+            'HourSW',
+//            'WarnSW',
+//            'eighthourSW',
+
+            'txjjsw',
+            'mxjjsw',
             'newSW',
             'newTM',
             'HisMaxSW',
 
             'HisMaxSWTM',
             'TM'
+        ],
+
+        hasOne: [
+            {
+                model: 'SfMobile.model.HourModel',
+                name:'HourSW'
+            }
         ]
     }
 

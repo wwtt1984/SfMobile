@@ -15,8 +15,10 @@ Ext.define('SfMobile.model.WaterModel',{
 //            'KRpercent',
 //            'KR',
 
-            'WarnSW',
-            'DangerSW',
+//            'WarnSW',
+//            'DangerSW',
+            'txjjsw',
+            'mxjjsw',
 
             'yesEighthourSW',
             'LL'

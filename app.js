@@ -78,6 +78,7 @@ Ext.application({
 
         'WaterModel',
         'WaterDayModel',
+        'HourModel',
 
         'RainModel',
         'RainDayModel',
