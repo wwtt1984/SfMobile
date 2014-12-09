@@ -108,6 +108,21 @@ Ext.define('SfMobile.controller.RainControl', {
     onInfoSearchSelectTap: function(){
 
         var me = this;
-        me.getRaindetail().onRainPick();
+        var raintype = me.getRaindetail().getActiveItem().xtype;
+
+        switch(raintype){
+            case 'rainday':
+                me.getRaindetail().onRainDayPick();
+                break;
+
+            case 'rainmonth':
+                me.getRaindetail().onRainMonthPick();
+                break;
+
+            case 'rainyear':
+                me.getRaindetail().onRainYearPick();
+                break;
+
+        }
     }
 })

@@ -104,7 +104,7 @@ Ext.define('SfMobile.view.rain.RainDetail', {
         }, this);
     },
 
-    onRainPick: function(){
+    onRainDayPick: function(){
 
         var me = this;
 
@@ -115,7 +115,7 @@ Ext.define('SfMobile.view.rain.RainDetail', {
                 monthText: '月',
                 dayText: '日',
                 yearText: '年',
-                slotOrder:["year","month", "day"],
+                slotOrder: ['year', 'month', 'day'],
                 yearFrom: 2010,
                 doneButton: {
                     text: '确定'
@@ -131,18 +131,7 @@ Ext.define('SfMobile.view.rain.RainDetail', {
                             Ext.Msg.alert('对不请，时间不能超过今天！');
                         }
                         else{
-                            var type = me.getActiveItem().xtype;
-                            switch(type){
-                                case 'rainday':
-                                    me.onRainDayLoad(Ext.Date.format(value, 'Y-m-d'), Ext.Date.format(Ext.Date.add(value, Ext.Date.DAY, -1), 'Y-m-d'), 1);
-                                    break;
-                                case 'rainmonth':
-                                    me.onRainMonthLoad(Ext.Date.format(value, 'Y-m'), Ext.Date.format(Ext.Date.add(value, Ext.Date.MONTH, -1), 'Y-m'), 1);
-                                    break;
-                                case 'rainyear':
-                                    me.onRainYearLoad(Ext.Date.format(value, 'Y'), Ext.Date.format(Ext.Date.add(value, Ext.Date.YEAR, -1), 'Y'), 1);
-                                    break;
-                            }
+                              me.onRainDayLoad(Ext.Date.format(value, 'Y-m-d'), Ext.Date.format(Ext.Date.add(value, Ext.Date.DAY, -1), 'Y-m-d'), 1);
                         }
                     }
                 }
@@ -151,7 +140,88 @@ Ext.define('SfMobile.view.rain.RainDetail', {
                 Ext.Viewport.add(me.onDayPicker);
             }
         }
+
         me.onDayPicker.show();
+    },
+
+    onRainMonthPick: function(){
+
+        var me = this;
+
+        if(!me.onMonthPicker){
+            me.onMonthPicker = Ext.create('Ext.picker.Date', {
+                useTitles: true,
+                value: new Date(),
+                monthText: '月',
+                dayText: '日',
+                yearText: '年',
+                slotOrder: ['year', 'month'],
+                yearFrom: 2010,
+                doneButton: {
+                    text: '确定'
+                },
+                cancelButton: {
+                    text: '取消'
+                },
+                listeners: {
+                    change: function(t, value, op) {
+
+                        var date = value; //日期对象
+                        if(value > new Date()){
+                            Ext.Msg.alert('对不请，时间不能超过今天！');
+                        }
+                        else{
+                            me.onRainMonthLoad(Ext.Date.format(value, 'Y-m'), Ext.Date.format(Ext.Date.add(value, Ext.Date.MONTH, -1), 'Y-m'), 1);
+                        }
+                    }
+                }
+            });
+            if (!me.onMonthPicker.getParent()) {
+                Ext.Viewport.add(me.onMonthPicker);
+            }
+        }
+
+        me.onMonthPicker.show();
+    },
+
+    onRainYearPick: function(){
+
+        var me = this;
+
+        if(!me.onYearPicker){
+            me.onYearPicker = Ext.create('Ext.picker.Date', {
+                useTitles: true,
+                value: new Date(),
+                monthText: '月',
+                dayText: '日',
+                yearText: '年',
+                slotOrder: ['year'],
+                yearFrom: 2010,
+                doneButton: {
+                    text: '确定'
+                },
+                cancelButton: {
+                    text: '取消'
+                },
+                listeners: {
+                    change: function(t, value, op) {
+
+                        var date = value; //日期对象
+                        if(value > new Date()){
+                            Ext.Msg.alert('对不请，时间不能超过今天！');
+                        }
+                        else{
+                            me.onRainYearLoad(Ext.Date.format(value, 'Y'), Ext.Date.format(Ext.Date.add(value, Ext.Date.YEAR, -1), 'Y'), 1);
+                        }
+                    }
+                }
+            });
+            if (!me.onYearPicker.getParent()) {
+                Ext.Viewport.add(me.onYearPicker);
+            }
+        }
+
+        me.onYearPicker.show();
     },
 
     onRainMonthLoad: function(time, time1, type){
