@@ -23,7 +23,7 @@ Ext.application({
 
     mainthis: '',
     gpstime:30000,//30秒
-    user: {sid:'',name: '', password: '',version:'1.0.0.95'},
+    user: {sid:'',name: '', password: '',version:'1.0.0.92'},
 
     imginfo:{imgjson:[],imgindex:0,imgpos:'',simgid:''},//图片值 图片id，位置
     
